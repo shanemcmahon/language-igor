@@ -1,0 +1,95 @@
+'fileTypes': [
+  'ipf'
+]
+'name': 'Igor'
+'patterns': [
+  {
+    'begin': '//'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.comment.igor'
+    'end': '\\n'
+    'name': 'comment.line.igor'
+  }
+    {
+      'begin': '#'
+      'beginCaptures':
+        '0':
+          'name': 'punctuation.definition.export.igor'
+      'end': ' |\\n'
+    }
+  {
+    'match': '\\b(Variable|String|Wave)\\b'
+    'name': 'storage.type.igor'
+  }
+  {
+    'match': '\\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)\\b'
+    'name': 'constant.numeric.igor'
+  }
+  {
+    'match': '\\b(function|if|break|else|for|return|switch|while|endif|(end)|do|print)\\b'
+    'name': 'keyword.control.igor'
+  }
+  {
+    'match': '\\b(Function|If|Break|Else|For|Return|Switch|While|Endif|(End)|Do|Print)\\b'
+    'name': 'keyword.control.igor'
+  }
+    {
+      'match': '\\b(FUNCTION|IF|BREAK|ELSE|FOR|RETURN|SWITCH|WHILE|ENDIF|END|DO|PRINT)\\b'
+      'name': 'keyword.control.igor'
+    }
+  {
+    'match': '\\b(Inf|NaN)\\b'
+    'name': 'constant.language.igor'
+  }
+  {
+    'match': '\\b(pi)\\b'
+    'name': 'support.constant.misc.igor'
+  }
+  {
+    'match': '(\\-|\\+|\\*|\\/|\\^)'
+    'name': 'keyword.operator.arithmetic.igor'
+  }
+  {
+    'match': '(=|\\+=|\\-=|\\*=|\\/=|:=)'
+    'name': 'keyword.operator.assignment.igor'
+  }
+  {
+    'match': '(==|!=|<|>|<=|>=)'
+    'name': 'keyword.operator.comparison.igor'
+  }
+  {
+    'match': '(!|&|&&|\\||\\|\\|)'
+    'name': 'keyword.operator.logical.igor'
+  }
+  {
+    'match': '(\\.\\.\\.|\\$|@|:|\\~)'
+    'name': 'keyword.other.igor'
+  }
+  {
+    'begin': '"'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.igor'
+    'end': '"'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.igor'
+    'name': 'string.quoted.double.igor'
+    'patterns': [
+      {
+        'match': '\\\\.'
+        'name': 'constant.character.escape.igor'
+      }
+    ]
+  }
+  {
+    'match': '\\b([\\d_][[:alnum:]._]+)\\b'
+    'name': 'invalid.illegal.variable.other.igor'
+  }
+  {
+    'match': '\\b([[:alnum:]._]+)\\b'
+    'name': 'variable.other.igor'
+  }
+]
+'scopeName': 'source.ipf'

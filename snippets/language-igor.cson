@@ -1,0 +1,13 @@
+'.source.ipf':
+  'Length':
+    'prefix': 'len'
+    'body': 'length(${1:x})'
+  'ConcatenateWavesInList':
+    'prefix': 'ConcatenateWavesInList'
+    'body': 'ConcatenateWavesInList(dest = string, wl = string)'
+  'ConcatenateWaves':
+    'prefix': 'ConcatenateWaves'
+    'body': 'ConcatenateWaves(w1 = string, w2 = string)'
+  'AdjustBaselineCDF':
+    'prefix': 'AdjustBaselineCDF'
+    'body': 'AdjustBaselineCDF(startx = 0.014, endx = 0.019)'

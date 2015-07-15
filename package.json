@@ -1,0 +1,41 @@
+{
+  "name": "language-igor",
+  "version": "0.1.0",
+  "author": {
+    "name": "Shane McMahon ",
+    "email": "mcmahon.shane@outlook.com"
+  },
+  "description": "A language description Igor Pro",
+  "keywords": [
+    "language",
+    "Igor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shanemcmahon/language-igor"
+  },
+  "license": "",
+  "engines": {
+    "atom": ">=1.0 <2.0.0"
+  },
+  "readme": "An Atom package providing support for the Igor Pro programming language",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/shanemcmahon/language-igor/issues"
+  },
+  "homepage": "https://github.com/shanemcmahon/language-igor",
+  "_id": "language-igor@0.1.0",
+  "_shasum": "",
+  "_resolved": "",
+  "_from": "",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

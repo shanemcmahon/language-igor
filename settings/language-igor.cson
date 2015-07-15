@@ -1,0 +1,4 @@
+'.source.ipf':
+  'editor':
+    'commentStart': '// '
+    # 'foldEndPattern': '(^\\s*\\)|^\\s*\\})'
