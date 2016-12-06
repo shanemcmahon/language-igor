@@ -23,19 +23,76 @@
     'name': 'storage.type.igor'
   }
   {
+    'match': '(?i)\\b(Variable)\\b'
+    'name': 'storage.type.igor'
+  }
+  {
+    'match': '(?i)\\b(String)\\b'
+    'name': 'storage.type.igor'
+  }
+  {
+    'match': '(?i)\\b(Wave)\\b'
+    'name': 'storage.type.igor'
+  }
+  {
     'match': '\\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)\\b'
     'name': 'constant.numeric.igor'
   }
-  {
-    'match': '\\b(function|if|break|else|for|return|switch|while|endif|(end)|do|print)\\b'
-    'name': 'keyword.control.igor'
-  }
-  {
-    'match': '\\b(Function|If|Break|Else|For|Return|Switch|While|Endif|(End)|Do|Print)\\b'
-    'name': 'keyword.control.igor'
-  }
+
     {
-      'match': '\\b(FUNCTION|IF|BREAK|ELSE|FOR|RETURN|SWITCH|WHILE|ENDIF|END|DO|PRINT)\\b'
+      'match': '(?i)\\b(function)\\b'
+      'name': 'keyword.control.igor'
+    }
+    {
+      'match': '(?i)\\b(IF)\\b'
+      'name': 'keyword.control.igor'
+    }
+    {
+      'match': '(?i)\\b(break)\\b'
+      'name': 'keyword.control.igor'
+    }
+    {
+      'match': '(?i)\\b(else)\\b'
+      'name': 'keyword.control.igor'
+    }
+    {
+      'match': '(?i)\\b(for)\\b'
+      'name': 'keyword.control.igor'
+    }
+    {
+      'match': '(?i)\\b(return)\\b'
+      'name': 'keyword.control.igor'
+    }
+    {
+      'match': '(?i)\\b(switch)\\b'
+      'name': 'keyword.control.igor'
+    }
+    {
+      'match': '(?i)\\b(while)\\b'
+      'name': 'keyword.control.igor'
+    }
+    {
+      'match': '(?i)\\b(endif)\\b'
+      'name': 'keyword.control.igor'
+    }
+    {
+      'match': '(?i)\\b(end)\\b'
+      'name': 'keyword.control.igor'
+    }
+    {
+      'match': '(?i)\\b(do)\\b'
+      'name': 'keyword.control.igor'
+    }
+    {
+      'match': '(?i)\\b(print)\\b'
+      'name': 'keyword.control.igor'
+    }
+    {
+      'match': '(?i)\\b(macro)\\b'
+      'name': 'keyword.control.igor'
+    }
+    {
+      'match': '(?i)\\b(endmacro)\\b'
       'name': 'keyword.control.igor'
     }
   {
