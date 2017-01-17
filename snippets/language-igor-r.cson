@@ -1,0 +1,127 @@
+'.source.ipf':
+  'r2polar':
+    'prefix': 'r2polar'
+    'body': 'r2polar(z )'
+  'RatioFromNumber':
+    'prefix': 'RatioFromNumber'
+    'body': 'RatioFromNumber [/MERR=maxError /MITS=maxIterations /V[=v ]] num'
+  'real':
+    'prefix': 'real'
+    'body': 'real(z )'
+  'Rect':
+    'prefix': 'Rect'
+    'body': 'Rect'
+  'RectF':
+    'prefix': 'RectF'
+    'body': 'RectF'
+  'Redimension':
+    'prefix': 'Redimension'
+    'body': 'Redimension [/B/C/D/E=e /I/N=n /R/S/U/W/Y=numType ] waveName, [waveName ]...'
+  'RemoveByKey':
+    'prefix': 'RemoveByKey'
+    'body': 'RemoveByKey(keyStr, kwListStr  [, keySepStr  [, listSepStr [, matchCase ]]])'
+  'RemoveContour':
+    'prefix': 'RemoveContour'
+    'body': 'RemoveContour [/W=winName ] contourInstanceName [, contourInstanceName ]...'
+  'RemoveEnding':
+    'prefix': 'RemoveEnding'
+    'body': 'RemoveEnding(str  [, endingStr ])'
+  'RemoveFromGizmo':
+    'prefix': 'RemoveFromGizmo'
+    'body': 'RemoveFromGizmo [flags][keyword = value]'
+  'RemoveFromGraph':
+    'prefix': 'RemoveFromGraph'
+    'body': 'RemoveFromGraph [/W=winName /Z] traceName [,traceName ]...'
+  'RemoveFromLayout':
+    'prefix': 'RemoveFromLayout'
+    'body': 'RemoveFromLayout objectSpec [, objectSpec ]...'
+  'RemoveFromList':
+    'prefix': 'RemoveFromList'
+    'body': 'RemoveFromList(itemOrListStr, listStr  [, listSepStr  [, matchCase ]])'
+  'RemoveFromTable':
+    'prefix': 'RemoveFromTable'
+    'body': 'RemoveFromTable  [/W=winName ] columnSpec [,columnSpec]...'
+  'RemoveImage':
+    'prefix': 'RemoveImage'
+    'body': 'RemoveImage [/W=winName /Z] imageInstance'
+  'RemoveLayoutObjects':
+    'prefix': 'RemoveLayoutObjects'
+    'body': 'RemoveLayoutObjects [/PAGE=page /W=winName /Z] objectSpec  [, objectSpec ]'
+  'RemoveListItem':
+    'prefix': 'RemoveListItem'
+    'body': 'RemoveListItem(index, listStr  [, listSepStr  [, offset ]])'
+  'RemovePath':
+    'prefix': 'RemovePath'
+    'body': 'RemovePath [/A/Z] pathName'
+  'Rename':
+    'prefix': 'Rename'
+    'body': 'Rename oldName, newName'
+  'RenameDataFolder':
+    'prefix': 'RenameDataFolder'
+    'body': 'RenameDataFolder sourceDataFolderSpec, newName'
+  'RenamePath':
+    'prefix': 'RenamePath'
+    'body': 'RenamePath oldName, newName'
+  'RenamePICT':
+    'prefix': 'RenamePICT'
+    'body': 'RenamePICT oldName, newName'
+  'RenameWindow':
+    'prefix': 'RenameWindow'
+    'body': 'RenameWindow oldName, newName'
+  'ReorderImages':
+    'prefix': 'ReorderImages'
+    'body': 'ReorderImages [/W=winName ] anchorImage, {imageA, imageB,...}'
+  'ReorderTraces':
+    'prefix': 'ReorderTraces'
+    'body': 'ReorderTraces [/W=winName ] anchorTrace, {traceA, traceB,...}'
+  'ReplaceNumberByKey':
+    'prefix': 'ReplaceNumberByKey'
+    'body': 'ReplaceNumberByKey(keyStr, kwListStr, newNum [, keySepStr  [, listSepStr  [, case ]]])'
+  'ReplaceString':
+    'prefix': 'ReplaceString'
+    'body': 'ReplaceString(replaceThisStr, inStr, withThisStr  [, caseSense  [, maxReplace ] ])'
+  'ReplaceStringByKey':
+    'prefix': 'ReplaceStringByKey'
+    'body': 'ReplaceStringByKey(keyStr, kwListStr, newTextStr  [, keySepStr  [, listSepStr  [, matchCase ]]])'
+  'ReplaceText':
+    'prefix': 'ReplaceText'
+    'body': 'ReplaceText [/N=name /W=winName ] textStr'
+  'ReplaceWave':
+    'prefix': 'ReplaceWave'
+    'body': 'ReplaceWave [/W=winName ] allinCDF'
+  'Resample':
+    'prefix': 'Resample'
+    'body': 'Resample [/COEF [=coefsWaveName ]/UP=upSample /DOWN=downSample /SAME=sWaveName /RATE=sampRate /DIM=dim /E=endEffect /N=numReconstructionSamples /WINF=windowKind ] waveName [,waveName ]...'
+  'ResumeUpdate':
+    'prefix': 'ResumeUpdate'
+    'body': 'ResumeUpdate'
+  'return':
+    'prefix': 'return'
+    'body': 'return'
+  'Reverse':
+    'prefix': 'Reverse'
+    'body': 'Reverse [/DIM=d /P][typeFlags ] waveA  [/D=destWaveA ] [, waveB [/D=destWaveB ] [,...]]'
+  'RGBAColor':
+    'prefix': 'RGBAColor'
+    'body': 'RGBAColor'
+  'RGBColor':
+    'prefix': 'RGBColor'
+    'body': 'RGBColor'
+  'rightx':
+    'prefix': 'rightx'
+    'body': 'rightx(waveName )'
+  'root':
+    'prefix': 'root'
+    'body': 'root'
+  'Rotate':
+    'prefix': 'Rotate'
+    'body': 'Rotate rotPoints, waveName [, waveName ]...'
+  'round':
+    'prefix': 'round'
+    'body': 'round(num )'
+  'rtGlobals':
+    'prefix': 'rtGlobals'
+    'body': 'rtGlobals'
+  'Snippet Name':
+    'prefix': 'Snippet Trigger'
+    'body': 'Hello World!'

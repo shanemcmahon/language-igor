@@ -1,0 +1,10 @@
+'.source.ipf':
+  'qcsr':
+    'prefix': 'qcsr'
+    'body': 'qcsr(cursorName  [, graphNameStr ])'
+  'Quit':
+    'prefix': 'Quit'
+    'body': 'Quit [/N/Y]'
+  'Snippet Name':
+    'prefix': 'Snippet Trigger'
+    'body': 'Hello World!'

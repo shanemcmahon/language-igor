@@ -1,0 +1,23 @@
+'.source.ipf':
+  'ValDisplay':
+    'prefix': 'ValDisplay'
+    'body': 'ValDisplay [/Z] ctrlName  [ keyword = value  [, keyword = value ...] ]'
+  'Variable':
+    'prefix': 'Variable'
+    'body': 'Variable [/C/D/G] varName [=numExpr ][, varName [=numExpr ]]...'
+  'VariableList':
+    'prefix': 'VariableList'
+    'body': 'VariableList(matchStr, separatorStr, variableTypeCode )'
+  'Variance':
+    'prefix': 'Variance'
+    'body': 'Variance(inWave [ , x1, x2 ] )'
+  'vcsr':
+    'prefix': 'vcsr'
+    'body': 'vcsr(cursorName  [, graphNameStr ])'
+  'version':
+    'prefix': 'version'
+    'body': 'version'
+  'VoigtFunc':
+    'prefix': 'VoigtFunc'
+    'body': 'VoigtFunc(X, Y)'
+  

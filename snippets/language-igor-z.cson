@@ -1,0 +1,10 @@
+'.source.ipf':
+  'zcsr':
+    'prefix': 'zcsr'
+    'body': 'zcsr(cursorName  [, graphNameStr ])'
+  'ZernikeR':
+    'prefix': 'ZernikeR'
+    'body': 'ZernikeR(n,m,r )'
+  'zeta':
+    'prefix': 'zeta'
+    'body': 'zeta(a, b [, terms ])'

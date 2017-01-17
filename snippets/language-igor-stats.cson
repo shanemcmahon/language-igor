@@ -1,0 +1,199 @@
+'.source.ipf':
+  'StatsAngularDistanceTest':
+    'prefix': 'StatsAngularDistanceTest'
+    'body': 'StatsAngularDistanceTest [/ALPH=significance /APRX=m /T=k /Q/Z /WSTR=waveListString ] [srcWave1, srcWave2, srcWave3... ]'
+  'StatsANOVA1Test':
+    'prefix': 'StatsANOVA1Test'
+    'body': 'StatsANOVA1Test [/ALPH=significance /BF/Q/Z/T=k /W/WSTR=wList]  [wave1,wave2,... wave100 ]'
+  'StatsANOVA2NRTest':
+    'prefix': 'StatsANOVA2NRTest'
+    'body': 'StatsANOVA2NRTest [/ALPH=significance  /MODL=modelNumber  /Q/Z /T=k ]  srcWave'
+  'StatsANOVA2RMTest':
+    'prefix': 'StatsANOVA2RMTest'
+    'body': 'StatsANOVA2RMTest [/ALPH=significance /Q/Z/T=k ]  srcWave'
+  'StatsANOVA2Test':
+    'prefix': 'StatsANOVA2Test'
+    'body': 'StatsANOVA2Test [/ALPH=significance  /FAKE=num  /MODL=modelNumber  /T=k /Q/Z] srcWave'
+  'StatsBetaCDF':
+    'prefix': 'StatsBetaCDF'
+    'body': 'StatsBetaCDF(x, p, q  [, a, b ])'
+  'StatsBetaPDF':
+    'prefix': 'StatsBetaPDF'
+    'body': 'StatsBetaPDF(x, p, q  [, a, b ])'
+  'StatsBinomialCDF':
+    'prefix': 'StatsBinomialCDF'
+    'body': 'StatsBinomialCDF(x, p, Ν )'
+  'StatsBinomialPDF':
+    'prefix': 'StatsBinomialPDF'
+    'body': 'StatsBinomialPDF(x, p, Ν )'
+  'StatsCauchyCDF':
+    'prefix': 'StatsCauchyCDF'
+    'body': 'StatsCauchyCDF(x, µ, σ)'
+  'StatsCauchyPDF':
+    'prefix': 'StatsCauchyPDF'
+    'body': 'StatsCauchyPDF(x, µ, σ)'
+  'StatsChiCDF':
+    'prefix': 'StatsChiCDF'
+    'body': 'StatsChiCDF(x, n )'
+  'StatsChiPDF':
+    'prefix': 'StatsChiPDF'
+    'body': 'StatsChiPDF(x, n )'
+  'StatsChiTest':
+    'prefix': 'StatsChiTest'
+    'body': 'StatsChiTest [/NCON=nCon /S/Z] srcWave1, srcWave2'
+  'StatsCircularCorrelationTest':
+    'prefix': 'StatsCircularCorrelationTest'
+    'body': 'StatsCircularCorrelationTest [/ALPH=alpha  /T=k /NAA/PAA/PAL/Z/Q] waveA, waveB'
+  'StatsCircularMeans':
+    'prefix': 'StatsCircularMeans'
+    'body': 'StatsCircularMeans [/ALPH=significance /CI/Q/Z/T=k ] srcWave'
+  'StatsCircularMoments':
+    'prefix': 'StatsCircularMoments'
+    'body': 'StatsCircularMoments [/ALPH=alpha /AXD=p /CYCL=cycle /GRPD={start, delta } /KUPR/LOS/M=moment /MODE=mode /ORGN=origin /Q/RAYL[=meanDirection ]/SAW/T=k /Z] srcWave'
+  'StatsCircularTwoSampleTest':
+    'prefix': 'StatsCircularTwoSampleTest'
+    'body': 'StatsCircularTwoSampleTest [/ALPH=alpha  /T=k  /NSOA /NPR /PSOA /PPR /Z /Q ] waveA, waveB'
+  'StatsCMSSDCDF':
+    'prefix': 'StatsCMSSDCDF'
+    'body': 'StatsCMSSDCDF(C, n )'
+  'StatsCochranTest':
+    'prefix': 'StatsCochranTest'
+    'body': 'StatsCochranTest [/Q/Z/ALPH=significance /T=k /WSTR=wList ]   [wave1,wave2, ... wave100 ]'
+  'StatsContingencyTable':
+    'prefix': 'StatsContingencyTable'
+    'body': 'StatsContingencyTable [/ALPH=significance /COR=mode /FEXT={row, col}/HTRG/LLIK/Q/Z /T=k ] srcWave'
+  'StatsCorrelation':
+    'prefix': 'StatsCorrelation'
+    'body': 'StatsCorrelation(waveA [, waveB ] )'
+  'StatsDExpCDF':
+    'prefix': 'StatsDExpCDF'
+    'body': 'StatsDExpCDF(x, µ, σ )'
+  'StatsDExpPDF':
+    'prefix': 'StatsDExpPDF'
+    'body': 'StatsDExpPdf(x, µ, σ)'
+  'StatsDIPTest':
+    'prefix': 'StatsDIPTest'
+    'body': 'StatsDIPTest [/Z] srcWave'
+  'StatsDunnettTest':
+    'prefix': 'StatsDunnettTest'
+    'body': 'StatsDunnettTest [/ALPH=significance /Q/Z/T=k /WSTR=wList /CIDX=controlIndex /SWN/TAIL=tailCode ] [wave1, wave2,... wave100 ]'
+  'StatsErlangCDF':
+    'prefix': 'StatsErlangCDF'
+    'body': 'StatsErlangCDF(x, b, c)'
+  'StatsErlangPDF':
+    'prefix': 'StatsErlangPDF'
+    'body': 'StatsErlangPDF(x, b, c)'
+  'StatsErrorPDF':
+    'prefix': 'StatsErrorPDF'
+    'body': 'StatsErrorPDF(x, a, b, c)'
+  'StatsEValueCDF':
+    'prefix': 'StatsEValueCDF'
+    'body': 'StatsEValueCDF(x, µ, σ )'
+  'StatsEValuePDF':
+    'prefix': 'StatsEValuePDF'
+    'body': 'StatsEValuePDF(x, µ, σ )'
+  'StatsExpCDF':
+    'prefix': 'StatsExpCDF'
+    'body': 'StatsExpCDF(x, µ, σ )'
+  'StatsExpPDF':
+    'prefix': 'StatsExpPDF'
+    'body': 'StatsExpPDF(x, µ, σ )'
+  'StatsFCDF':
+    'prefix': 'StatsFCDF'
+    'body': 'StatsFCDF(x, n1, n2 )'
+  'StatsFPDF':
+    'prefix': 'StatsFPDF'
+    'body': 'StatsFPDF(x, n1, n2  )'
+  'StatsFriedmanCDF':
+    'prefix': 'StatsFriedmanCDF'
+    'body': 'StatsFriedmanCDF(x, n, m, method, useTable )'
+  'StatsFriedmanTest':
+    'prefix': 'StatsFriedmanTest'
+    'body': 'StatsFriedmanTest [/ALPH=significance /RW/T=k /Q/Z/WSTR=wList ]   [wave1,wave2,... wave100 ]'
+  'StatsFTest':
+    'prefix': 'StatsFTest'
+    'body': 'StatsFTest [/ALPH=significance /TAIL=tc /T=km /Q/Z] wave1, wave2'
+  'StatsGammaCDF':
+    'prefix': 'StatsGammaCDF'
+    'body': 'StatsGammaCDF(x, µ, σ, γ )'
+  'StatsGammaPDF':
+    'prefix': 'StatsGammaPDF'
+    'body': 'StatsGammaPDF(x, µ, σ, γ )'
+  'StatsGeometricCDF':
+    'prefix': 'StatsGeometricCDF'
+    'body': 'StatsGeometricCDF(x, p )'
+  'StatsGeometricPDF':
+    'prefix': 'StatsGeometricPDF'
+    'body': 'StatsGeometricPDF(x, p )'
+  'StatsGEVCDF':
+    'prefix': 'StatsGEVCDF'
+    'body': 'StatsGEVCDF(x, µ, σ, ξ)'
+  'StatsGEVPDF':
+    'prefix': 'StatsGEVPDF'
+    'body': 'StatsGEVPDF(x, µ, σ, ξ)'
+  'StatsGEVPDF(x, µ, σ, ξ)':
+    'prefix': 'StatsGEVPDF(x, µ, σ, ξ)'
+    'body': 'StatsHodgesAjneTest [/ALPH=significance /Q/SA=specAngle /Z /T=k ] srcWave'
+  'StatsHyperGCDF':
+    'prefix': 'StatsHyperGCDF'
+    'body': 'StatsHyperGCDF(x, m, n, k )'
+  'StatsHyperGPDF':
+    'prefix': 'StatsHyperGPDF'
+    'body': 'StatsHyperGPDF(x, m, n, k )'
+  'StatsInvBetaCDF':
+    'prefix': 'StatsInvBetaCDF'
+    'body': 'StatsInvBetaCDF(cdf, p, q  [, a, b ])'
+  'StatsInvBinomialCDF':
+    'prefix': 'StatsInvBinomialCDF'
+    'body': 'StatsInvBinomialCDF(cdf, p,  Ν )'
+  'StatsInvCauchyCDF':
+    'prefix': 'StatsInvCauchyCDF'
+    'body': 'StatsInvCauchyCDF(cdf, µ, σ)'
+  'StatsInvChiCDF':
+    'prefix': 'StatsInvChiCDF'
+    'body': 'StatsInvChiCDF(x, n )'
+  'StatsInvCMSSDCDF':
+    'prefix': 'StatsInvCMSSDCDF'
+    'body': 'StatsInvCMSSDCDF(cdf, n )'
+  'StatsInvDExpCDF':
+    'prefix': 'StatsInvDExpCDF'
+    'body': 'StatsInvDExpCDF(cdf, µ, σ)'
+  'StatsInvEValueCDF':
+    'prefix': 'StatsInvEValueCDF'
+    'body': 'StatsInvEValueCDF(cdf, µ, σ )'
+  'StatsInvExpCDF':
+    'prefix': 'StatsInvExpCDF'
+    'body': 'StatsInvExpCDF(cdf, µ, σ )'
+  'StatsInvFCDF':
+    'prefix': 'StatsInvFCDF'
+    'body': 'StatsInvFCDF(x, n1, n2  )'
+  'StatsInvFriedmanCDF':
+    'prefix': 'StatsInvFriedmanCDF'
+    'body': 'StatsInvFriedmanCDF(cdf, n, m, method, useTable )'
+  'StatsInvGammaCDF':
+    'prefix': 'StatsInvGammaCDF'
+    'body': 'StatsInvGammaCDF(cdf, µ, σ, γ )'
+  'StatsInvGeometricCDF':
+    'prefix': 'StatsInvGeometricCDF'
+    'body': 'StatsInvGeometricCDF(cdf, p )'
+  'StatsInvKuiperCDF':
+    'prefix': 'StatsInvKuiperCDF'
+    'body': 'StatsInvKuiperCDF(cdf )'
+  'StatsInvLogisticCDF':
+    'prefix': 'StatsInvLogisticCDF'
+    'body': 'StatsInvLogisticCDF(cdf, a, b )'
+  'StatsInvLogNormalCDF':
+    'prefix': 'StatsInvLogNormalCDF'
+    'body': 'StatsInvLogNormalCDF(cdf , sigma , theta , mu )'
+  'StatsInvMaxwellCDF':
+    'prefix': 'StatsInvMaxwellCDF'
+    'body': 'StatsInvMaxwellCDF(cdf, k )'
+  'StatsInvMooreCDF':
+    'prefix': 'StatsInvMooreCDF'
+    'body': 'StatsInvMooreCDF(cdf, N )'
+  'StatsInvNBinomialCDF':
+    'prefix': 'StatsInvNBinomialCDF'
+    'body': 'StatsInvNBinomialCDF(cdf, k, p )'
+  'StatsInvNCChiCDF':
+    'prefix': 'StatsInvNCChiCDF'
+    'body': 'StatsInvNCChiCDF(cdf, n, d )'

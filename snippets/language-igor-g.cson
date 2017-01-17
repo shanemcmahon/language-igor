@@ -1,0 +1,187 @@
+'.source.ipf':
+  'GalleryGlobal':
+    'prefix': 'GalleryGlobal'
+    'body': 'GalleryGlobal'
+  'gamma':
+    'prefix': 'gamma'
+    'body': 'gamma(num )'
+  'gammaEuler':
+    'prefix': 'gammaEuler'
+    'body': 'gammaEuler'
+  'gammaInc':
+    'prefix': 'gammaInc'
+    'body': 'gammaInc(a, x  [, upperTail ])'
+  'gammaNoise':
+    'prefix': 'gammaNoise'
+    'body': 'gammaNoise(a [,b ])'
+  'gammln':
+    'prefix': 'gammln'
+    'body': 'gammln(num  [, accuracy ])'
+  'gammp':
+    'prefix': 'gammp'
+    'body': 'gammp(a, x  [, accuracy ])'
+  'gammq':
+    'prefix': 'gammq'
+    'body': 'gammq(a, x  [, accuracy ])'
+  'Gauss':
+    'prefix': 'Gauss'
+    'body': 'Gauss(x,xc,wx[,y,yc,wy [,z,zc,wz [,t,tc,wt ]]])'
+  'Gauss1D':
+    'prefix': 'Gauss1D'
+    'body': 'Gauss1D(w, x )'
+  'Gauss2D':
+    'prefix': 'Gauss2D'
+    'body': 'Gauss2D(w, x, y )'
+  'GBLoadWave':
+    'prefix': 'GBLoadWave'
+    'body': 'GBLoadWave [flags] fileNameStr'
+  'gcd':
+    'prefix': 'gcd'
+    'body': 'gcd(A, B )'
+  'GetAxis':
+    'prefix': 'GetAxis'
+    'body': 'GetAxis [/W=winName /Q] axisName'
+  'GetBrowserLine':
+    'prefix': 'GetBrowserLine'
+    'body': 'GetBrowserLine (fullPathStr [, mode])'
+  'GetBrowserSelection':
+    'prefix': 'GetBrowserSelection'
+    'body': 'GetBrowserSelection (index [, mode ])'
+  'GetCamera':
+    'prefix': 'GetCamera'
+    'body': 'GetCamera [/DEF/Q /W=winName /Z ]  keyword=value'
+  'GetDataFolder':
+    'prefix': 'GetDataFolder'
+    'body': 'GetDataFolder(mode [, dfr ] )'
+  'GetDataFolderDFR':
+    'prefix': 'GetDataFolderDFR'
+    'body': 'GetDataFolderDFR( )'
+  'GetDefaultFont':
+    'prefix': 'GetDefaultFont'
+    'body': 'GetDefaultFont(winName )'
+  'GetDefaultFontSize':
+    'prefix': 'GetDefaultFontSize'
+    'body': 'GetDefaultFontSize(graphNameStr, axisNameStr )'
+  'GetDefaultFontStyle':
+    'prefix': 'GetDefaultFontStyle'
+    'body': 'GetDefaultFontStyle(graphNameStr, axisNameStr )'
+  'GetDimLabel':
+    'prefix': 'GetDimLabel'
+    'body': 'GetDimLabel(waveName, dimNumber, dimIndex )'
+  'GetEnvironmentVariable':
+    'prefix': 'GetEnvironmentVariable'
+    'body': 'GetEnvironmentVariable(varName)'
+  'GetErrMessage':
+    'prefix': 'GetErrMessage'
+    'body': 'GetErrMessage(errorCode [, substitutionOption ])'
+  'GetFileFolderInfo':
+    'prefix': 'GetFileFolderInfo'
+    'body': 'GetFileFolderInfo [/D /P=pathName /Q /Z[=z]] [fileOrFolderNameStr]'
+  'GetFormula':
+    'prefix': 'GetFormula'
+    'body': 'GetFormula(objName )'
+  'GetGizmo':
+    'prefix': 'GetGizmo'
+    'body': 'GetGizmo [/N/Z] keyword  [=value ]'
+  'GetIndependentModuleName':
+    'prefix': 'GetIndependentModuleName'
+    'body': 'GetIndependentModuleName()'
+  'GetIndexedObjName':
+    'prefix': 'GetIndexedObjName'
+    'body': 'GetIndexedObjName(sourceFolderStr, objectType, index )'
+  'GetIndexedObjNameDFR':
+    'prefix': 'GetIndexedObjNameDFR'
+    'body': 'GetIndexedObjNameDFR(dfr, objectType, index )'
+  'GetKeyState':
+    'prefix': 'GetKeyState'
+    'body': 'GetKeyState(flags)'
+  'GetLastUserMenuInfo':
+    'prefix': 'GetLastUserMenuInfo'
+    'body': 'GetLastUserMenuInfo'
+  'GetMarquee':
+    'prefix': 'GetMarquee'
+    'body': 'GetMarquee [/K/W=winName  /Z] [axisName [, axisName ]]'
+  'GetMouse':
+    'prefix': 'GetMouse'
+    'body': 'GetMouse [ /W=winName ]'
+  'GetRTErrMessage':
+    'prefix': 'GetRTErrMessage'
+    'body': 'GetRTErrMessage()'
+  'GetRTError':
+    'prefix': 'GetRTError'
+    'body': 'GetRTError(flag )'
+  'GetRTLocation':
+    'prefix': 'GetRTLocation'
+    'body': 'GetRTLocation(sleepMS )'
+  'GetRTLocInfo':
+    'prefix': 'GetRTLocInfo'
+    'body': 'GetRTLocInfo(code )'
+  'GetRTStackInfo':
+    'prefix': 'GetRTStackInfo'
+    'body': 'GetRTStackInfo(selector )'
+  'GetScrapText':
+    'prefix': 'GetScrapText'
+    'body': 'GetScrapText()'
+  'GetSelection':
+    'prefix': 'GetSelection'
+    'body': 'GetSelection winType, winName, bitflags'
+  'GetUserData':
+    'prefix': 'GetUserData'
+    'body': 'GetUserData(winName, objID, userdataName )'
+  'GetWavesDataFolder':
+    'prefix': 'GetWavesDataFolder'
+    'body': 'GetWavesDataFolder(waveName, kind )'
+  'GetWavesDataFolderDFR':
+    'prefix': 'GetWavesDataFolderDFR'
+    'body': 'GetWavesDataFolderDFR(waveName )'
+  'GetWindow':
+    'prefix': 'GetWindow'
+    'body': 'GetWindow [/Z] winName  keyword '
+  'GizmoInfo':
+    'prefix': 'GizmoInfo'
+    'body': 'GizmoInfo(nameStr, key )'
+  'GizmoScale':
+    'prefix': 'GizmoScale'
+    'body': 'GizmoScale(dataValue, dimNumber [, gizmoNameStr ] )'
+  'gnoise':
+    'prefix': 'gnoise'
+    'body': 'gnoise(num [, RNG ])'
+  'Graph':
+    'prefix': 'Graph'
+    'body': 'Graph'
+  'GraphMarquee':
+    'prefix': 'GraphMarquee'
+    'body': 'GraphMarquee'
+  'GraphNormal':
+    'prefix': 'GraphNormal'
+    'body': 'GraphNormal [/W=winName ]'
+  'GraphStyle':
+    'prefix': 'GraphStyle'
+    'body': 'GraphStyle'
+  'GraphWaveDraw':
+    'prefix': 'GraphWaveDraw'
+    'body': 'GraphWaveDraw [/W=winName /B/F[=f  ]/L/M/O/R/T] [yWaveName, xWaveName ]'
+  'GraphWaveEdit':
+    'prefix': 'GraphWaveEdit'
+    'body': 'GraphWaveEdit [/M/NI/T=t /W=winName ] traceName'
+  'Grep':
+    'prefix': 'Grep'
+    'body': 'Grep [ flags ] [srcFileStr ] [srcTextWaveName] [ as [destFileOrFolderStr ]										[, destTextWaveName] ]'
+  'GrepList':
+    'prefix': 'GrepList'
+    'body': 'GrepList(listStr, regExprStr [,reverse  [, listSepStr ]] )'
+  'GrepString':
+    'prefix': 'GrepString'
+    'body': 'GrepString(string, regExprStr )'
+  'GridStyle':
+    'prefix': 'GridStyle'
+    'body': 'GridStyle'
+  'GroupBox':
+    'prefix': 'GroupBox'
+    'body': 'GroupBox [/Z] ctrlname  [ keyword = value  [, keyword = value ...] ]'
+  'GuideInfo':
+    'prefix': 'GuideInfo'
+    'body': 'GuideInfo(winNameStr, guideNameStr )'
+  'GuideNameList':
+    'prefix': 'GuideNameList'
+    'body': 'GuideNameList(winNameStr, optionsStr )'

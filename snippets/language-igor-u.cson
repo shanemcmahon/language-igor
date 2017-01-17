@@ -1,0 +1,31 @@
+'.source.ipf':
+  'uint64':
+    'prefix': 'uint64'
+    'body': 'uint64'
+  'UniqueName':
+    'prefix': 'UniqueName'
+    'body': 'UniqueName(baseName, objectType, startSuffix  [, windowNameStr ])'
+  'UnPadString':
+    'prefix': 'UnPadString'
+    'body': 'UnPadString(str, padValue )'
+  'UnsetEnvironmentVariable':
+    'prefix': 'UnsetEnvironmentVariable'
+    'body': 'UnsetEnvironmentVariable(varName)'
+  'Unwrap':
+    'prefix': 'Unwrap'
+    'body': 'Unwrap modulus, waveName [, waveName ]...'
+  'UpperStr':
+    'prefix': 'UpperStr'
+    'body': 'UpperStr(str )'
+  'URLDecode':
+    'prefix': 'URLDecode'
+    'body': 'URLDecode(inputStr)'
+  'URLEncode':
+    'prefix': 'URLEncode'
+    'body': 'URLEncode(inputStr)'
+  'URLRequest':
+    'prefix': 'URLRequest'
+    'body': 'URLRequest [ flags ] url=urlStr [method=methodName, headers=headersStr] '
+  'Snippet Name':
+    'prefix': 'Snippet Trigger'
+    'body': 'Hello World!'

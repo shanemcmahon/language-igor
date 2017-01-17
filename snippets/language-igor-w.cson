@@ -1,0 +1,136 @@
+'.source.ipf':
+  'Wave':
+    'prefix': 'Wave'
+    'body': 'WAVE'
+  'WaveClear':
+    'prefix': 'WaveClear'
+    'body': 'WAVEClear localName  [, localName1...]'
+  'WaveCRC':
+    'prefix': 'WaveCRC'
+    'body': 'WaveCRC(inCRC, waveName [,checkHeader])'
+  'WaveDims':
+    'prefix': 'WaveDims'
+    'body': 'WaveDims(wave )'
+  'WaveExists':
+    'prefix': 'WaveExists'
+    'body': 'WaveExists(wave )'
+  'WaveInfo':
+    'prefix': 'WaveInfo'
+    'body': 'WaveInfo(wave, 0)'
+  'WaveList':
+    'prefix': 'WaveList'
+    'body': 'WaveList(matchStr, separatorStr, optionsStr )'
+  'WaveMax':
+    'prefix': 'WaveMax'
+    'body': 'WaveMax(waveName  [, x1, x2  ])'
+  'WaveMeanStdv':
+    'prefix': 'WaveMeanStdv'
+    'body': 'WaveMeanStdv srcWave  binSizeWave'
+  'WaveMin':
+    'prefix': 'WaveMin'
+    'body': 'WaveMin(waveName  [, x1, x2  ])'
+  'WaveName':
+    'prefix': 'WaveName'
+    'body': 'WaveName(windowNameStr, index, type )'
+  'WaveRefIndexed':
+    'prefix': 'WaveRefIndexed'
+    'body': 'WaveRefIndexed(windowNameStr, index, type )'
+  'WaveRefIndexedDFR':
+    'prefix': 'WaveRefIndexedDFR'
+    'body': 'WaveRefIndexedDFR(dfr, index )'
+  'WaveRefsEqual':
+    'prefix': 'WaveRefsEqual'
+    'body': 'WaveRefsEqual(w1 , w2 )'
+  'WaveRefWaveToList':
+    'prefix': 'WaveRefWaveToList'
+    'body': 'WaveRefWaveToList(waveRefWave, option)'
+  'WaveStats':
+    'prefix': 'WaveStats'
+    'body': 'WaveStats [flags]/Z waveName'
+  'WaveTextEncoding':
+    'prefix': 'WaveTextEncoding'
+    'body': 'WaveTextEncoding(wave , element , getEffectiveTextEncoding )'
+  'WaveTransform':
+    'prefix': 'WaveTransform'
+    'body': 'WaveTransform [flags] keyword  srcWave'
+  'WaveType':
+    'prefix': 'WaveType'
+    'body': 'WaveType(waveName [,selector ] )'
+  'WaveUnits':
+    'prefix': 'WaveUnits'
+    'body': 'WaveUnits(waveName, dimNumber )'
+  'wfprintf':
+    'prefix': 'wfprintf'
+    'body': 'wfprintf refNumOrStr, formatStr [/R=(startX, endX )] waveName  [, waveName ]...'
+  'WhichListItem':
+    'prefix': 'WhichListItem'
+    'body': 'WhichListItem(itemStr, listStr  [, listSepStr  [, startIndex  [, matchCase ] ]])'
+  'WignerTransform':
+    'prefix': 'WignerTransform'
+    'body': 'WignerTransform [/Z][/WIDE=wSize ] [/GAUS=gaussianWidth ][/DEST=destWave ] srcWave'
+  'Window':
+    'prefix': 'Window'
+    'body': 'Window'
+  'WindowFunction':
+    'prefix': 'WindowFunction'
+    'body': 'WindowFunction [/FFT[=f  ] /DEST=destWave ] windowKind, srcWave'
+  'WinList':
+    'prefix': 'WinList'
+    'body': 'WinList(matchStr, separatorStr, optionsStr )'
+  'WinName':
+    'prefix': 'WinName'
+    'body': 'WinName(index, windowTypes  [, visibleWindowsOnly  [, floatKind ]])'
+  'WinRecreation':
+    'prefix': 'WinRecreation'
+    'body': 'WinRecreation(winStr, options )'
+  'WinType':
+    'prefix': 'WinType'
+    'body': 'WinType(winNameStr )'
+  'WMAxisHookStruct':
+    'prefix': 'WMAxisHookStruct'
+    'body': 'WMAxisHookStruct'
+  'WMBackgroundStruct':
+    'prefix': 'WMBackgroundStruct'
+    'body': 'WMBackgroundStruct'
+  'WMButtonAction':
+    'prefix': 'WMButtonAction'
+    'body': 'WMButtonAction'
+  'WMCheckboxAction':
+    'prefix': 'WMCheckboxAction'
+    'body': 'WMCheckboxAction'
+  'WMCustomControlAction':
+    'prefix': 'WMCustomControlAction'
+    'body': 'WMCustomControlAction'
+  'WMDrawUserShapeStruct':
+    'prefix': 'WMDrawUserShapeStruct'
+    'body': 'WMDrawUserShapeStruct'
+  'WMFitInfoStruct':
+    'prefix': 'WMFitInfoStruct'
+    'body': 'WMFitInfoStruct'
+  'WMGizmoHookStruct':
+    'prefix': 'WMGizmoHookStruct'
+    'body': 'WMGizmoHookStruct'
+  'WMListboxAction':
+    'prefix': 'WMListboxAction'
+    'body': 'WMListboxAction'
+  'WMMarkerHookStruct':
+    'prefix': 'WMMarkerHookStruct'
+    'body': 'WMMarkerHookStruct'
+  'WMPopupAction':
+    'prefix': 'WMPopupAction'
+    'body': 'WMPopupAction'
+  'WMSetVariableAction':
+    'prefix': 'WMSetVariableAction'
+    'body': 'WMSetVariableAction'
+  'WMSliderAction':
+    'prefix': 'WMSliderAction'
+    'body': 'WMSliderAction'
+  'WMTabControlAction':
+    'prefix': 'WMTabControlAction'
+    'body': 'WMTabControlAction'
+  'WMWinHookStruct':
+    'prefix': 'WMWinHookStruct'
+    'body': 'WMWinHookStruct'
+  'wnoise':
+    'prefix': 'wnoise'
+    'body': 'wnoise(shape, scale )'

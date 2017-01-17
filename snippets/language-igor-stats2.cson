@@ -1,0 +1,274 @@
+'.source.ipf':
+  'StatsInvNCFCDF':
+    'prefix': 'StatsInvNCFCDF'
+    'body': 'StatsInvNCFCDF(cdf, n1, n2, d )'
+  'StatsInvNormalCDF':
+    'prefix': 'StatsInvNormalCDF'
+    'body': 'StatsInvNormalCDF(cdf,  µ, σ )'
+  'StatsInvParetoCDF':
+    'prefix': 'StatsInvParetoCDF'
+    'body': 'StatsInvParetoCDF(cdf, a, c )'
+  'StatsInvPoissonCDF':
+    'prefix': 'StatsInvPoissonCDF'
+    'body': 'StatsInvPoissonCDF(cdf, λ )'
+  'StatsInvPowerCDF':
+    'prefix': 'StatsInvPowerCDF'
+    'body': 'StatsInvPowerCDF(cdf, b, c )'
+  'StatsInvQCDF':
+    'prefix': 'StatsInvQCDF'
+    'body': 'StatsInvQCDF (cdf, r, c, df )'
+  'StatsInvQpCDF':
+    'prefix': 'StatsInvQpCDF'
+    'body': 'StatsInvQpCDF(ng, nt, df, alpha, side, sSizeWave )'
+  'StatsInvRayleighCDF':
+    'prefix': 'StatsInvRayleighCDF'
+    'body': 'StatsInvRayleighCDF(cdf  [, σ [, µ ]])'
+  'StatsInvRectangularCDF':
+    'prefix': 'StatsInvRectangularCDF'
+    'body': 'StatsInvRectangularCDF(cdf, a, b )'
+  'StatsInvSpearmanCDF':
+    'prefix': 'StatsInvSpearmanCDF'
+    'body': 'StatsInvSpearmanCDF(cdf, N )'
+  'StatsInvStudentCDF':
+    'prefix': 'StatsInvStudentCDF'
+    'body': 'StatsInvStudentCDF(cdf, n )'
+  'StatsInvTopDownCDF':
+    'prefix': 'StatsInvTopDownCDF'
+    'body': 'StatsInvTopDownCDF(cdf, N )'
+  'StatsInvTriangularCDF':
+    'prefix': 'StatsInvTriangularCDF'
+    'body': 'StatsInvTriangularCDF(cdf, a, b, c )'
+  'StatsInvUsquaredCDF':
+    'prefix': 'StatsInvUsquaredCDF'
+    'body': 'StatsInvUSquaredCDF(cdf, n, m, method, useTable )'
+  'StatsInvVonMisesCDF':
+    'prefix': 'StatsInvVonMisesCDF'
+    'body': 'StatsInvVonMisesCDF(cdf, a, b )'
+  'StatsInvWeibullCDF':
+    'prefix': 'StatsInvWeibullCDF'
+    'body': 'StatsInvWeibullCDF(cdf, µ, σ, γ)'
+  'StatsJBTest':
+    'prefix': 'StatsJBTest'
+    'body': 'StatsJBTest [/ALPH=alpha  /T=k /Z/Q] srcWave'
+  'StatsKDE':
+    'prefix': 'StatsKDE'
+    'body': 'StatsKDE [flags] srcWave'
+  'StatsKendallTauTest':
+    'prefix': 'StatsKendallTauTest'
+    'body': 'StatsKendallTauTest [/Q/Z] [/T=k]  wave1 [,wave2]'
+  'StatsKSTest':
+    'prefix': 'StatsKSTest'
+    'body': 'StatsKSTest [/ALPH=alpha  /CDFF=func  /T=k /Z/Q] srcWave  [, distWave ]'
+  'StatsKuiperCDF':
+    'prefix': 'StatsKuiperCDF'
+    'body': 'StatsKuiperCDF(V )'
+  'StatsKWTest':
+    'prefix': 'StatsKWTest'
+    'body': 'StatsKWTest [/ALPH=significance /Q/Z/T=k /WSTR=wList ] [wave1, wave2,... wave100 ]'
+  'StatsLinearCorrelationTest':
+    'prefix': 'StatsLinearCorrelationTest'
+    'body': 'StatsLinearCorrelationTest [/ALPH=alpha  /T=k /RHO=rhoValue /Q/Z] waveA, waveB'
+  'StatsLinearRegression':
+    'prefix': 'StatsLinearRegression'
+    'body': 'StatsLinearRegression [/ALPH=alpha /T=k /Z/Q/WSTR=strList /BCIW/BPIW/TUK/DET=index ] [wave0, wave1,...]'
+  'StatsLogisticCDF':
+    'prefix': 'StatsLogisticCDF'
+    'body': 'StatsLogisticCDF(x, a, b )'
+  'StatsLogisticPDF':
+    'prefix': 'StatsLogisticPDF'
+    'body': 'StatsLogisticPDF(x, a, b )'
+  'StatsLogNormalCDF':
+    'prefix': 'StatsLogNormalCDF'
+    'body': 'StatsLogNormalCDF(x, σ [, θ, µ ])'
+  'StatsLogNormalPDF':
+    'prefix': 'StatsLogNormalPDF'
+    'body': 'StatsLogNormalPDF(x, σ [, θ, µ ])'
+  'StatsMaxwellCDF':
+    'prefix': 'StatsMaxwellCDF'
+    'body': 'StatsMaxwellCDF(x, k )'
+  'StatsMaxwellPDF':
+    'prefix': 'StatsMaxwellPDF'
+    'body': 'StatsMaxwellPDF(x, k )'
+  'StatsMedian':
+    'prefix': 'StatsMedian'
+    'body': 'StatsMedian(waveName )'
+  'StatsMooreCDF':
+    'prefix': 'StatsMooreCDF'
+    'body': 'StatsMooreCDF(x, N )'
+  'StatsMultiCorrelationTest':
+    'prefix': 'StatsMultiCorrelationTest'
+    'body': 'StatsMultiCorrelationTest [/ALPH=alpha  /T=k /Z/Q/TUK/CON={controlRow, tails }/CONT=contrastWave ] corrWave, sizeWave'
+  'StatsNBinomialCDF':
+    'prefix': 'StatsNBinomialCDF'
+    'body': 'StatsNBinomialCDF(x, k, p )'
+  'StatsNBinomialPDF':
+    'prefix': 'StatsNBinomialPDF'
+    'body': 'StatsNBinomialPDF(x, k, p )'
+  'StatsNCChiCDF':
+    'prefix': 'StatsNCChiCDF'
+    'body': 'StatsNCChiCDF(x, n, d )'
+  'StatsNCChiPDF':
+    'prefix': 'StatsNCChiPDF'
+    'body': 'StatsNCChiPDF(x, n, d )'
+  'StatsNCFCDF':
+    'prefix': 'StatsNCFCDF'
+    'body': 'StatsNCFCDF(x, n1, n2, d )'
+  'StatsNCFPDF':
+    'prefix': 'StatsNCFPDF'
+    'body': 'StatsNCFPDF(x, n1, n2, d )'
+  'StatsNCTCDF':
+    'prefix': 'StatsNCTCDF'
+    'body': 'StatsNCTCDF(x, df, d )'
+  'StatsNCTPDF':
+    'prefix': 'StatsNCTPDF'
+    'body': 'StatsNCTPDF(x, df, d )'
+  'StatsNormalCDF':
+    'prefix': 'StatsNormalCDF'
+    'body': 'StatsNormalCDF(x, µ, σ )'
+  'StatsNormalPDF':
+    'prefix': 'StatsNormalPDF'
+    'body': 'StatsNormalPDF(x, µ, σ )'
+  'StatsNPMCTest':
+    'prefix': 'StatsNPMCTest'
+    'body': 'StatsNPMCTest [/Q/Z/ALPH=val /SWN/T=k /TAIL=tailCode /WSTR=waveListString /TUK/SNK/DHW/CIDX=controlIndex /CONW=contrastWave ] [wave1, wave2,... wave100 ]'
+  'StatsNPNominalSRTest':
+    'prefix': 'StatsNPNominalSRTest'
+    'body': 'StatsNPNominalSRTest [/ALPH=alpha  /P={m,n,u }/T=k /Z/Q] [srcWave ]'
+  'StatsParetoCDF':
+    'prefix': 'StatsParetoCDF'
+    'body': 'StatsParetoCDF(x, a, c )'
+  'StatsParetoPDF':
+    'prefix': 'StatsParetoPDF'
+    'body': 'StatsParetoPDF(x, a, c )'
+  'StatsPermute':
+    'prefix': 'StatsPermute'
+    'body': 'StatsPermute(waveA, waveB, dir )'
+  'StatsPoissonCDF':
+    'prefix': 'StatsPoissonCDF'
+    'body': 'StatsPoissonCDF(x, λ )'
+  'StatsPoissonPDF':
+    'prefix': 'StatsPoissonPDF'
+    'body': 'StatsPoissonPDF(x, λ )'
+  'StatsPowerCDF':
+    'prefix': 'StatsPowerCDF'
+    'body': 'StatsPowerCDF(x, b, c )'
+  'StatsPowerNoise':
+    'prefix': 'StatsPowerNoise'
+    'body': 'StatsPowerNoise(b, c )'
+  'StatsPowerPDF':
+    'prefix': 'StatsPowerPDF'
+    'body': 'StatsPowerPDF(x, b, c )'
+  'StatsQCDF':
+    'prefix': 'StatsQCDF'
+    'body': 'StatsQCDF (q, r, c, df )'
+  'StatsQpCDF':
+    'prefix': 'StatsQpCDF'
+    'body': 'StatsQpCDF(q, nr, nt, df, side, sSizeWave )'
+  'StatsQuantiles':
+    'prefix': 'StatsQuantiles'
+    'body': 'StatsQuantiles [/ALL/BOX/iNaN/IW/TM/Z/Q/QM=method /STBL/TRIM=tValue ] srcWave'
+  'StatsRankCorrelationTest':
+    'prefix': 'StatsRankCorrelationTest'
+    'body': 'StatsRankCorrelationTest [/ALPH=alpha  /T=k /Z/Q] waveA, waveB'
+  'StatsRayleighCDF':
+    'prefix': 'StatsRayleighCDF'
+    'body': 'StatsRayleighCDF(x [, σ [, µ ]])'
+  'StatsRayleighPDF':
+    'prefix': 'StatsRayleighPDF'
+    'body': 'StatsRayleighPDF(x [, σ  [, µ ]])'
+  'StatsRectangularCDF':
+    'prefix': 'StatsRectangularCDF'
+    'body': 'StatsRectangularCDF(x, a, b )'
+  'StatsRectangularPDF':
+    'prefix': 'StatsRectangularPDF'
+    'body': 'StatsRectangularPDF(x, a, b )'
+  'StatsResample':
+    'prefix': 'StatsResample'
+    'body': 'StatsResample /N=numPoints [ /ITER=n  /JCKN=ufunc  /K /Q /SQ=m  /WS=m  /Z ] srcWave'
+  'StatsRunsCDF':
+    'prefix': 'StatsRunsCDF'
+    'body': 'StatsRunsCDF(n,  r )'
+  'StatsSample':
+    'prefix': 'StatsSample'
+    'body': 'StatsSample /N=numPoints [/MC/MR/Z] srcWave'
+  'StatsScheffeTest':
+    'prefix': 'StatsScheffeTest'
+    'body': 'StatsScheffeTest [/ALPH=val /T=k /Q/SWN/Z/WSTR=waveListString /CONW=contrastWave ] [wave1, wave2,... wave100 ]'
+  'StatsShapiroWilkTest':
+    'prefix': 'StatsShapiroWilkTest'
+    'body': 'StatsShapiroWilkTest [/Q/Z] srcWave'
+  'StatsSignTest':
+    'prefix': 'StatsSignTest'
+    'body': 'StatsSignTest [/ALPH=significance /Q/Z/T=k ]  wave1,wave2'
+  'StatsSpearmanRhoCDF':
+    'prefix': 'StatsSpearmanRhoCDF'
+    'body': 'StatsSpearmanRhoCDF(r, N )'
+  'StatsSRTest':
+    'prefix': 'StatsSRTest'
+    'body': 'StatsSRTest [ /ALPH=alpha  /P /NAPR /NP /T=k  /Z /Q ] srcWave'
+  'StatsStudentCDF':
+    'prefix': 'StatsStudentCDF'
+    'body': 'StatsStudentCDF(t, n )'
+  'StatsStudentPDF':
+    'prefix': 'StatsStudentPDF'
+    'body': 'StatsStudentPDF(t, n )'
+  'StatsTopDownCDF':
+    'prefix': 'StatsTopDownCDF'
+    'body': 'StatsTopDownCDF(r, N )'
+  'StatsTriangularCDF':
+    'prefix': 'StatsTriangularCDF'
+    'body': 'StatsTriangularCDF(x, a, b, c )'
+  'StatsTriangularPDF':
+    'prefix': 'StatsTriangularPDF'
+    'body': 'StatsTriangularPDF(x, a, b, c )'
+  'StatsTrimmedMean':
+    'prefix': 'StatsTrimmedMean'
+    'body': 'StatsTrimmedMean(waveName, trimValue )'
+  'StatsTTest':
+    'prefix': 'StatsTTest'
+    'body': 'StatsTTest [/ALPH=alpha  /CI /DFM=m  /MEAN=meanV  /PAIR /TAIL=n  /T=k /Z /Q] wave1  [, wave2 ]'
+  'StatsTukeyTest':
+    'prefix': 'StatsTukeyTest'
+    'body': 'StatsTukeyTest [/ALPH=val /NK/Q/Z/SWN/T=k /WSTR=wList ] [wave1, wave2,... wave100 ]'
+  'StatsUSquaredCDF':
+    'prefix': 'StatsUSquaredCDF'
+    'body': 'StatsUSquaredCDF(u2, n, m, method, useTable )'
+  'StatsVariancesTest':
+    'prefix': 'StatsVariancesTest'
+    'body': 'StatsVariancesTest [/ALPH=val /Q/Z/METH=m /WSTR=strList ]  [wave1, wave2,... wave100 ]'
+  'StatsVonMisesCDF':
+    'prefix': 'StatsVonMisesCDF'
+    'body': 'StatsVonMisesCDF(x, a, b )'
+  'StatsVonMisesNoise':
+    'prefix': 'StatsVonMisesNoise'
+    'body': 'StatsVonMisesNoise(a, b )'
+  'StatsVonMisesPDF':
+    'prefix': 'StatsVonMisesPDF'
+    'body': 'StatsVonMisesPDF(θ, a, b )'
+  'StatsWaldCDF':
+    'prefix': 'StatsWaldCDF'
+    'body': 'StatsWaldCDF(x, µ, λ )'
+  'StatsWaldPDF':
+    'prefix': 'StatsWaldPDF'
+    'body': 'StatsWaldPDF(x, µ, λ )'
+  'StatsWatsonUSquaredTest':
+    'prefix': 'StatsWatsonUSquaredTest'
+    'body': 'StatsWatsonUSquaredTest [/ALPH=val /Q/Z/T=k]  srcWave1, srcWave2'
+  'StatsWatsonWilliamsTest':
+    'prefix': 'StatsWatsonWilliamsTest'
+    'body': 'StatsWatsonWilliamsTest [/ALPH=val /Q/Z/T=k /WSTR=waveListString ] [srcWave1, srcWave2, srcWave3,...]'
+  'StatsWeibullCDF':
+    'prefix': 'StatsWeibullCDF'
+    'body': 'StatsWeibullCDF(x, µ, σ, γ)'
+  'StatsWeibullPDF':
+    'prefix': 'StatsWeibullPDF'
+    'body': 'StatsWeibullPDF(x, µ, σ, γ)'
+  'StatsWheelerWatsonTest':
+    'prefix': 'StatsWheelerWatsonTest'
+    'body': 'StatsWheelerWatsonTest [/ALPH=val /Q/Z/T=k /WSTR=waveListString ] [srcWave1, srcWave2, srcWave3,...]'
+  'StatsWilcoxonRankTest':
+    'prefix': 'StatsWilcoxonRankTest'
+    'body': 'StatsWilcoxonRankTest [/ALPH=val /APRX=m /T=k /TAIL=tail /Q/Z]  waveA, waveB'
+  'StatsWRCorrelationTest':
+    'prefix': 'StatsWRCorrelationTest'
+    'body': 'StatsWRCorrelationTest [/ALPH=val /T=k /Z/Q]  waveA, waveB'

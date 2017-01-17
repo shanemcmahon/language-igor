@@ -1,0 +1,158 @@
+'.source.ipf':
+  'factorial':
+    'prefix': 'factorial'
+    'body': 'factorial(n )'
+  'fakedata':
+    'prefix': 'fakedata'
+    'body': 'FakeData(waveName )'
+  'FastGaussTransform':
+    'prefix': 'FastGaussTransform'
+    'body': 'FastGaussTransform [/AERR=aprxErr, /WDTH=h, /OUTW=locWave, /OUT1={x1,nx,x2 },  /OUT2={x1,nx,x2,y1,ny,y2 }, /OUT3={x1,nx,x2,y1,ny,y2,z1,nz,z2 }, /Q, /RX=rx, /RY=ry, /TET=nTerms, /Z] srcLocationsWave, srcWeightsWave'
+  'FastOp':
+    'prefix': 'FastOp'
+    'body': 'FastOp [/C] destwave = prod1 [± prod2  [± prod3 ]]'
+  'faverage':
+    'prefix': 'faverage'
+    'body': 'faverage(waveName  [, x1, x2  ] )'
+  'faverageXY':
+    'prefix': 'faverageXY'
+    'body': 'faverageXY(XWaveName, YWaveName  [, x1, x2  ] )'
+  'FBinRead':
+    'prefix': 'FBinRead'
+    'body': 'FBinRead [/B[=b ]/F=f ] refNum, objectName'
+  'FBinWrite':
+    'prefix': 'FBinWrite'
+    'body': 'FBinWrite [/B[=b ]/F=f ] refNum, objectName'
+  'FetchURL':
+    'prefix': 'FetchURL'
+    'body': 'FetchURL(urlStr )'
+  'FFT':
+    'prefix': 'FFT'
+    'body': 'FFT [flags]  srcWave'
+  'FGetPos':
+    'prefix': 'FGetPos'
+    'body': 'FGetPos refNum'
+  'FIFO2Wave':
+    'prefix': 'FIFO2Wave'
+    'body': 'FIFO2Wave [/R=[startPoint,endPoint ]/S=s ] FIFOName, channelName, waveName'
+  'FIFOStatus':
+    'prefix': 'FIFOStatus'
+    'body': 'FIFOStatus [/Q] FIFOName'
+  'FilterFIR':
+    'prefix': 'FilterFIR'
+    'body': 'FilterFIR [/COEF[=coefsWaveName ] /DIM= d /E=endEffect  /HI={f1, f2, n } /LO={f1, f2, n } /NMF={fc, fw [, eps, nMult ]} /WINF=windowKindName] waveName [, waveName ]...'
+  'FilterIIR':
+    'prefix': 'FilterIIR'
+    'body': 'FilterIIR [/CASC /COEF[=coefsWaveName] /DIM=d /HI=fHigh  /LO=fLow /N={fNotch, notchQ } /ORD=order /Z=z /ZP] [waveName , ... ]'
+  'FindAPeak':
+    'prefix': 'FindAPeak'
+    'body': 'FindAPeak [/B=baseWaveName ] minamp, pol, box, peakWaveName [ (startX,endX ) ]'
+  'FindContour':
+    'prefix': 'FindContour'
+    'body': 'FindContour [/DSTX=destXWave /DSTY=dstYWave ] matrixWave, level'
+  'FindDimLabel':
+    'prefix': 'FindDimLabel'
+    'body': 'FindDimLabel(waveName, dimNumber, labelString )'
+  'FindDuplicates':
+    'prefix': 'FindDuplicates'
+    'body': 'FindDuplicates [flags ] srcWave'
+  'FindLevel':
+    'prefix': 'FindLevel'
+    'body': 'FindLevel [/B=box /EDGE=e /P/Q/R=(startX,endX )/T=dx ] waveName, level'
+  'FindLevels':
+    'prefix': 'FindLevels'
+    'body': 'FindLevels [/B=box /D=destWaveName /DEST=destWaveName /EDGE=e /M=minWidthX /N=maxLevels /P/Q  /R=(startX,endX)/T=dx]waveName, level'
+  'FindListItem':
+    'prefix': 'FindListItem'
+    'body': 'FindListItem(itemStr, listStr  [, listSepStr  [, start  [, matchCase ]]])'
+  'FindPeak':
+    'prefix': 'FindPeak'
+    'body': 'FindPeak [/B=box /I/M=minAmp /N/P/Q/R=(startX,endX )] waveName'
+  'FindPointsInPoly':
+    'prefix': 'FindPointsInPoly'
+    'body': 'FindPointsInPoly xWaveName, yWaveName, xPolyWaveName, yPolyWaveName'
+  'FindRoots':
+    'prefix': 'FindRoots'
+    'body': 'FindRoots [/B=[doBracket ]][/F=trustRegion ] [/H=highBracket  /L=lowBracket ] [/I=maxIters ] [/Q] [/T=tol ] [/X=startXSpec ] funcspec, pWave  [, funcspec, pwave  [, ...]]'
+  'FindSequence':
+    'prefix': 'FindSequence'
+    'body': 'FindSequence [/I=iValueWave /M=match  /S=start /T=tolerance /U=uValueWave /V=rValueWave /Z] srcWave'
+  'FindValue':
+    'prefix': 'FindValue'
+    'body': 'FindValue [/I=iValue /S=start /T=tolerance /U=uValue /V=rValue /Z] srcWave'
+  'FitFunc':
+    'prefix': 'FitFunc'
+    'body': 'FitFunc'
+  'floor':
+    'prefix': 'floor'
+    'body': 'floor(num )'
+  'FontList':
+    'prefix': 'FontList'
+    'body': 'FontList(separatorStr  [, options ])'
+  'FontSizeHeight':
+    'prefix': 'FontSizeHeight'
+    'body': 'FontSizeHeight(fontNameStr, fontSize, fontstyle  [,appearanceStr ] )'
+  'FontSizeStringWidth':
+    'prefix': 'FontSizeStringWidth'
+    'body': 'FontSizeStringWidth(fontNameStr, fontSize, fontstyle, theStr [,appearanceStr] )'
+  'for-endfor':
+    'prefix': 'for-endfor'
+    'body': 'for(<initialize>;<continue test>;<update>)	// Initialize variables;continue test \n
+	     <loop body>			// Condition;update loop variables\n endfor						// Execute body code until continue test is FALSE\n'
+  'FPClustering':
+    'prefix': 'FPClustering'
+    'body': 'FPClustering [/NOR][/SHUB=startHub][/MAXR=maxRad] [/Q/Z] srcWave'
+  'fprintf':
+    'prefix': 'fprintf'
+    'body': 'fprintf refNum,formatStr  [, parameter]...'
+  'FReadLine':
+    'prefix': 'FReadLine'
+    'body': 'FReadLine [/N=n /T=termcharStr ] refNum, stringVarName'
+  'FresnelCos':
+    'prefix': 'FresnelCos'
+    'body': 'fresnelCos(x )'
+  'FresnelSin':
+    'prefix': 'FresnelSin'
+    'body': 'fresnelSin(x )'
+  'FSetPos':
+    'prefix': 'FSetPos'
+    'body': 'FSetPos refNum, filePos'
+  'FStatus':
+    'prefix': 'FStatus'
+    'body': 'FStatus refNum'
+  'FTPCreateDirectory':
+    'prefix': 'FTPCreateDirectory'
+    'body': 'FTPCreateDirectory [ /N=portNumber /U=userNameStr /V=diagnosticMode /W=passwordStr /Z ] urlStr'
+  'FTPDelete':
+    'prefix': 'FTPDelete'
+    'body': 'FTPDelete [ /D /N=portNumber /U=userNameStr /V=diagnosticMode /W=passwordStr /Z ] urlStr'
+  'FTPDownload':
+    'prefix': 'FTPDownload'
+    'body': 'FTPDownload [ /D /I/M=messageStr /N=portNumber /O[=mode]/P=pathName /S=showProgress /T=transferType /U=userNameStr /V=diagnosticMode /W=passwordStr /Z ] urlStr, localPathStr'
+  'FTPUpload':
+    'prefix': 'FTPUpload'
+    'body': 'FTPUpload [ /D /I/M=messageStr /N=portNumber /O[=mode]/P=pathName /S=showProgress /T=transferType /U=userNameStr /V=diagnosticMode /W=passwordStr /Z ] urlStr, localPathStr'
+  'FuncFit':
+    'prefix': 'FuncFit'
+    'body': 'FuncFit [ flags ] fitFuncName, cwaveName, waveName  [ flag parameters ]'
+  'FuncFitMD':
+    'prefix': 'FuncFitMD'
+    'body': 'FuncFitMD [ flags ] fitFuncName, cwaveName, waveName  [ flag parameters ]'
+  'FUNCREF':
+    'prefix': 'FUNCREF'
+    'body': 'FUNCREF'
+  'FuncRefInfo':
+    'prefix': 'FuncRefInfo'
+    'body': 'FuncRefInfo(funcRef )'
+  'Function':
+    'prefix': 'Function'
+    'body': 'Function [ /C /D /S /DF /WAVE ]'
+  'FunctionInfo':
+    'prefix': 'FunctionInfo'
+    'body': 'FunctionInfo(functionNameStr [, procedureWinTitleStr ])'
+  'FunctionList':
+    'prefix': 'FunctionList'
+    'body': 'FunctionList(matchStr, separatorStr, optionsStr )'
+  'FunctionPath':
+    'prefix': 'FunctionPath'
+    'body': 'FunctionPath(functionNameStr)'

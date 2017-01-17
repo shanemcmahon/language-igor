@@ -1,0 +1,195 @@
+'.source.ipf':
+  'ICA':
+    'prefix': 'ICA'
+    'body': 'ICA [flags] srcWave'
+  'if-else-endif':
+    'prefix': 'if-else-endif'
+    'body': 'if (<expression>) \n
+	<TRUE part>			// Execute if condition is TRUE \n
+else \n
+	<FALSE part>			// Execute if condition is FALSE \n
+endif \n'
+  'if-elseif-endif':
+    'prefix': 'if-elseif-endif'
+    'body': 'if (<expression1>)\n
+	<TRUE part 1>		// Execute if condition 1 is TRUE\n
+elseif (<expression2>)\n
+	<TRUE part 2>		// Execute if condition 2 is TRUE and condition 1 is FALSE\n
+[...]\n
+[else\n
+	<FALSE part>]		// Optionally execute if all conditions are FALSE\n
+endif\n'
+  'IFFT':
+    'prefix': 'IFFT'
+    'body': 'IFFT [flags] srcWave'
+  'IgorInfo':
+    'prefix': 'IgorInfo'
+    'body': 'IgorInfo(selector )'
+  'IgorVersion':
+    'prefix': 'IgorVersion'
+    'body': 'IgorVersion()'
+  'imag':
+    'prefix': 'imag'
+    'body': 'imag(z )'
+  'ImageAnalyzeParticles':
+    'prefix': 'ImageAnalyzeParticles'
+    'body': 'ImageAnalyzeParticles  [ flags ] keyword  imageMatrix'
+  'ImageBlend':
+    'prefix': 'ImageBlend'
+    'body': 'ImageBlend [/A=alpha /W=alphaWave ] srcWaveA, srcWaveB  [, destWave ]'
+  'ImageBoundaryToMask':
+    'prefix': 'ImageBoundaryToMask'
+    'body': 'ImageBoundaryToMask width=w, height=h, xwave=xwavename, ywave=ywavename  [, scalingWave=scalingWaveName,  [seedX=xVal, seedY=yVal ]]'
+  'ImageEdgeDetection':
+    'prefix': 'ImageEdgeDetection'
+    'body': 'ImageEdgeDetection [flags] Method  ImageMatrix'
+  'ImageFileInfo':
+    'prefix': 'ImageFileInfo'
+    'body': 'ImageFileInfo [/P=pathName ] fileNameStr'
+  'ImageFilter':
+    'prefix': 'ImageFilter'
+    'body': 'ImageFilter [/N=n /O/P=p /b=b /R=roiWave ] Method  dataMatrix'
+  'ImageFocus':
+    'prefix': 'ImageFocus'
+    'body': 'ImageFocus [/ED=edepth /METH=method /Q/Z] stackWave'
+  'ImageFromXYZ':
+    'prefix': 'ImageFromXYZ'
+    'body': 'ImageFromXYZ [/AS] xyzWave , dataMatrix , countMatrix'
+  'ImageGenerateROIMask':
+    'prefix': 'ImageGenerateROIMask'
+    'body': 'ImageGenerateROIMask [/E=e /I=i /W=winName ] imageInstance '
+  'ImageGLCM':
+    'prefix': 'ImageGLCM'
+    'body': 'ImageGLCM [/Z /FREE /D=distance /E=structure /P=plane /HTFP /DEST=destGLCM /DETP=destParamWave] srcWave'
+  'ImageHistModification':
+    'prefix': 'ImageHistModification'
+    'body': 'ImageHistModification [/A [/B=bins ][/C=cFactor ]] [/H=hRegions ] [/O/I] [/R=roiSpec ][/V=vRegions ][/W=waveName ] ImageMatrix'
+  'ImageHistogram':
+    'prefix': 'ImageHistogram'
+    'body': 'ImageHistogram [/I/P=plane /R=roiWave /S] imageMatrix'
+  'ImageInfo':
+    'prefix': 'ImageInfo'
+    'body': 'ImageInfo(graphNameStr, imageWaveNameStr, instanceNumber )'
+  'ImageInterpolate':
+    'prefix': 'ImageInterpolate'
+    'body': 'ImageInterpolate [ flags ] Method  srcWave'
+  'ImageLineProfile':
+    'prefix': 'ImageLineProfile'
+    'body': 'ImageLineProfile  [/P=plane /S/SC/V] xWave=xwave, yWave=ywave, srcwave=srcwave      [, width=value, widthWave=wWave ]'
+  'ImageLoad':
+    'prefix': 'ImageLoad'
+    'body': 'ImageLoad  [ flags ] [fileNameStr ]'
+  'ImageMorphology':
+    'prefix': 'ImageMorphology'
+    'body': 'ImageMorphology [/E=SE#  /I=iterations /L/N/O/R=roiSpec  /S= StructureElement  /W=whiteValue  /X=xOrigin  /Y=yOrigin /Z=zOrigin ] Method  ImageMatrix'
+  'ImageNameList':
+    'prefix': 'ImageNameList'
+    'body': 'ImageNameList(graphNameStr, separatorStr )'
+  'ImageNameToWaveRef':
+    'prefix': 'ImageNameToWaveRef'
+    'body': 'ImageNameToWaveRef(graphNameStr, imageNameStr )'
+  'ImageRegistration':
+    'prefix': 'ImageRegistration'
+    'body': 'ImageRegistration [flags] [testMask=testMaskWave ] [refMask=refMaskWave ] testWave=imageWave1, refWave=imageWave2'
+  'ImageRemoveBackground':
+    'prefix': 'ImageRemoveBackground'
+    'body': 'ImageRemoveBackground /R=roiWave  [/F/O/W][/P=polynomial order ] srcWave'
+  'ImageRestore':
+    'prefix': 'ImageRestore'
+    'body': 'ImageRestore [/Z /ITER=iterations  /DEST=destWave] srcWave=wSrc , psfWave=wPSF  [, relaxationGamma=h , startingImage=wRecon ] '
+  'ImageRotate':
+    'prefix': 'ImageRotate'
+    'body': 'ImageRotate [flags] ImageMatrix'
+  'ImageSave':
+    'prefix': 'ImageSave'
+    'body': 'ImageSave [ flags ] waveName  [ [as] fileNameStr ]'
+  'ImageSeedFill':
+    'prefix': 'ImageSeedFill'
+    'body': 'ImageSeedFill [/O][/B=backgroundValue ][/C][/K=killCount ] [/R=roiWave ] [adaptive=factor, fillNumber=num, fuzzyCenter=fcVal, fuzzyProb=fpVal, fuzzyScale=fsVal, fuzzyWidth=fwVal, min=minval, max=maxval ], seedP=row, seedQ=col, seedR=layer, seedX=xLoc, seedY=yLoc, seedZ=zLoc, target=setValue, srcWave=srcImage'
+  'ImageSkeleton3d':
+    'prefix': 'ImageSkeleton3d'
+    'body': 'ImageSkeleton3D [/DEST=destWave /METH=method /Z ] srcWave'
+  'ImageSnake':
+    'prefix': 'ImageSnake'
+    'body': 'ImageSnake [flags ] srcWave'
+  'ImageStats':
+    'prefix': 'ImageStats'
+    'body': 'ImageStats [ flags ] imageWave'
+  'ImageThreshold':
+    'prefix': 'ImageThreshold'
+    'body': 'ImageThreshold [flags] imageMatrix'
+  'ImageTransform':
+    'prefix': 'ImageTransform'
+    'body': 'ImageTransform [ flags ] Method imageMatrix'
+  'ImageUnwrapPhase':
+    'prefix': 'ImageUnwrapPhase'
+    'body': 'ImageUnwrapPhase  [/Q] [/E] [/M=method ] [/L] [/R=RoiWave ] [/MAX=len ] [qualityWave=qWave,] srcWave=waveName		'
+  'ImageWindow':
+    'prefix': 'ImageWindow'
+    'body': 'ImageWindow [/I][/O][/P=param ] method  srcWave'
+  'IndependentModule':
+    'prefix': 'IndependentModule'
+    'body': 'IndependentModule'
+  'IndexedDir':
+    'prefix': 'IndexedDir'
+    'body': 'IndexedDir(pathName, index, flags )'
+  'IndexedFile':
+    'prefix': 'IndexedFile'
+    'body': 'IndexedFile(pathName, index, fileTypeOrExtStr  [, creatorStr ])'
+  'IndexSort':
+    'prefix': 'IndexSort'
+    'body': 'IndexSort [ /DIML ] indexWaveName, sortedWaveName [, sortedWaveName ]...'
+  'IndexToScale':
+    'prefix': 'IndexToScale'
+    'body': 'IndexToScale(wave, index, dim)'
+  'Inf':
+    'prefix': 'Inf'
+    'body': 'Inf'
+  'InsertPoints':
+    'prefix': 'InsertPoints'
+    'body': 'InsertPoints [/M=dim ] beforeElement, numElements, waveName [, waveName ]...'
+  'int':
+    'prefix': 'int'
+    'body': 'int'
+  'int64':
+    'prefix': 'int64'
+    'body': 'int64'
+  'Integrate':
+    'prefix': 'Integrate'
+    'body': 'Integrate [/DIM = d  /METH=m  /P/T][typeFlags ] yWaveA  [/X = xWaveA ][/D = destWaveA ] [, yWaveB  [/X = xWaveB ][/D = destWaveB ][, ...]]'
+  'Integrate1D':
+    'prefix': 'Integrate1D'
+    'body': 'Integrate1D(UserFunctionName, min_x, max_x [, options [, count ] [, pWave ]]])'
+  'Integrate2D':
+    'prefix': 'Integrate2D'
+    'body': 'Integrate2D [/Q /Z=zFlag /OPTS=options] [ keyword = value ...]'
+  'IntegrateODE':
+    'prefix': 'IntegrateODE'
+    'body': 'IntegrateODE [/E=eps /F=errMethod  /M=m /Q= quiet /R=(startX, endX) /S=waveName /STOP={stopWave, mode} /U=u  /X=xvaluespec  /XRUN={dx0, Xmax} /CVOP={solver, jacobian, extendedErrors}] derivFunc,  cwaveName,  ywaveSpec '
+  'interp':
+    'prefix': 'interp'
+    'body': 'interp(x1, xwaveName, ywaveName )'
+  'Interp2D':
+    'prefix': 'Interp2D'
+    'body': 'Interp2D (srcWaveName,  xValue, yValue )'
+  'Interp3D':
+    'prefix': 'Interp3D'
+    'body': 'Interp3D(srcWave, x, y, z [, triangulationWave ])'
+  'Interp3DPath':
+    'prefix': 'Interp3DPath'
+    'body': 'Interp3DPath 3dWave tripletPathWave'
+  'Interpolate2':
+    'prefix': 'Interpolate2'
+    'body': 'Interpolate2 [flags ] [ xWave , ] yWave'
+  'Interpolate3D':
+    'prefix': 'Interpolate3D'
+    'body': 'Interpolate3D [/Z ] /RNGX={x0,dx,nx}/RNGY={y0,dy,ny}/RNGZ={z0,dz,nz} /DEST=dataFolderAndName, triangulationWave=tWave, srcWave=sWave'
+  'inverseERF':
+    'prefix': 'inverseERF'
+    'body': 'inverseErf(x )'
+  'inverseERFC':
+    'prefix': 'inverseERFC'
+    'body': 'inverseErfc(x )'
+  'ItemsInList':
+    'prefix': 'ItemsInList'
+    'body': 'ItemsInList(listStr  [, listSepStr ])'

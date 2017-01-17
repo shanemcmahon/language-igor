@@ -1,0 +1,38 @@
+'.source.ipf':
+  'KillBackground':
+    'prefix': 'KillBackground'
+    'body': 'KillBackground'
+  'KillControl':
+    'prefix': 'KillControl'
+    'body': 'KillControl [/W=winName ] controlName'
+  'KillDataFolder':
+    'prefix': 'KillDataFolder'
+    'body': 'KillDataFolder [/Z] dataFolderSpec'
+  'KillFIFO':
+    'prefix': 'KillFIFO'
+    'body': 'KillFIFO FIFOName'
+  'KillFreeAxis':
+    'prefix': 'KillFreeAxis'
+    'body': 'KillFreeAxis [/W=winName ] axisName'
+  'KillPath':
+    'prefix': 'KillPath'
+    'body': 'KillPath [/A/Z] pathName'
+  'KillPICTs':
+    'prefix': 'KillPICTs'
+    'body': 'KillPICTs [/A/Z] [PICTName [, PICTName ]...]'
+  'KillStrings':
+    'prefix': 'KillStrings'
+    'body': 'KillStrings [/A/Z] [stringName [, stringName ]...]'
+  'KillVariables':
+    'prefix': 'KillVariables'
+    'body': 'KillVariables [/A/Z] [variableName [, variableName ]...]'
+  'KillWaves':
+    'prefix': 'KillWaves'
+    'body': 'KillWaves [/A/F/Z] waveName [, waveName ]...'
+  'KillWindow':
+    'prefix': 'KillWindow'
+    'body': 'KillWindow [/Z] winName'
+  'KMeans':
+    'prefix': 'KMeans'
+    'body': 'KMeans [/CAN /DEAD=method  /DIST=mode  /INIT=method  /INW=iWave /NCLS=num  /OUT=format  /SEED=val  /TER=method  /TERN=num /Z] populationWave'
+  

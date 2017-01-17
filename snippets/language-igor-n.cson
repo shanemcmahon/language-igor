@@ -1,0 +1,106 @@
+'.source.ipf':
+  'NameOfWave':
+    'prefix': 'NameOfWave'
+    'body': 'NameOfWave(wave )'
+  'NaN':
+    'prefix': 'NaN'
+    'body': 'NaN'
+  'NeuralNetworkRun':
+    'prefix': 'NeuralNetworkRun'
+    'body': 'NeuralNetworkRun [/Q/Z] Input=testWave, WeightsWave1=w1, WeightsWave2=w2'
+  'NeuralNetworkTrain':
+    'prefix': 'NeuralNetworkTrain'
+    'body': 'NeuralNetworkTrain [/Q/Z] [keyword = value ] ...'
+  'NewCamera':
+    'prefix': 'NewCamera'
+    'body': 'NewCamera [/HIDE=h  /HOST=hcSpec /K=k /S=sequence  /N=winName /W=(left,top,right,bottom ) ] [hardwareName=hwName]'
+  'NewDataFolder':
+    'prefix': 'NewDataFolder'
+    'body': 'NewDataFolder [/O/S] dataFolderSpec'
+  'NewFIFO':
+    'prefix': 'NewFIFO'
+    'body': 'NewFIFO FIFOName'
+  'NewFIFOChan':
+    'prefix': 'NewFIFOChan'
+    'body': 'NewFIFOChan [/B/C/D/I/S/U/W/Y=numType ] FIFOName, channelName, offset, gain, minusFS, plusFS, unitsStr [, vectPnts ]'
+  'NewFreeAxis':
+    'prefix': 'NewFreeAxis'
+    'body': 'NewFreeAxis [/L/R/B/T/O/W=winName ] axisName'
+  'NewFreeDataFolder':
+    'prefix': 'NewFreeDataFolder'
+    'body': 'NewFreeDataFolder()'
+  'NewFreeWave':
+    'prefix': 'NewFreeWave'
+    'body': 'NewFreeWave(type , npoints)'
+  'NewGizmo':
+    'prefix': 'NewGizmo'
+    'body': 'NewGizmo [/HOST=hcSpec /I /N=name  /T=titleStr  /D /K=k /W=(left,top,right,bottom) /Z]'
+  'NewImage':
+    'prefix': 'NewImage'
+    'body': 'NewImage [/F/G=g /HIDE=h /HOST=hcSpec /K=k /N=name /S=s ] matrix '
+  'NewLayout':
+    'prefix': 'NewLayout'
+    'body': 'NewLayout [/B=(r,g,b) /C=color /HIDE=h /K=k /N=name /P=orientation /W=(left,top,right,bottom)] [as titleStr ]'
+  'NewMovie':
+    'prefix': 'NewMovie'
+    'body': 'NewMovie [flags] [as fileNameStr ]'
+  'NewNotebook':
+    'prefix': 'NewNotebook'
+    'body': 'NewNotebook [flags ] [as titleStr ]'
+  'NewPanel':
+    'prefix': 'NewPanel'
+    'body': 'NewPanel [EXT=e  /FG=(gLeft, gTop, gRight, gBottom )/FLT[=f  ] /HIDE=h /HOST=hcSpec /I/K=k /M/N=name /NA=n /W=(left, top, right, bottom )] [as titleStr ]'
+  'NewPath':
+    'prefix': 'NewPath'
+    'body': 'NewPath [/C/M=messageStr /O/Q/Z] pathName  [, pathToFolderStr]'
+  'NewWaterfall':
+    'prefix': 'NewWaterfall'
+    'body': 'NewWaterfall [/FG=(gLeft, gTop, gRight, gBottom )/HIDE=h /HOST=hcSpec /I/K=k /M /N=name /PG=(gLeft, gTop, gRight, gBottom )/W=(left,top,right,bottom )] mwave  [vs {wavex,wavez }]'
+  'norm':
+    'prefix': 'norm'
+    'body': 'norm(srcWave )'
+  'NormalizeUnicode':
+    'prefix': 'NormalizeUnicode'
+    'body': 'NormalizeUnicode(sourceTextStr, normalizationForm[, options])'
+  'note':
+    'prefix': 'note'
+    'body': 'note(waveName )'
+  'Note':
+    'prefix': 'Note'
+    'body': 'Note [/K/NOCR] waveName [, str ]'
+  'Notebook':
+    'prefix': 'Notebook'
+    'body': 'Notebook winName, keyword =value [, keyword =value ]...'
+  'NotebookAction':
+    'prefix': 'NotebookAction'
+    'body': 'NotebookAction [/W=winName ] keyword = value  [, keyword = value ...]'
+  'num2char':
+    'prefix': 'num2char'
+    'body': 'num2char(num  [, options ] )'
+  'num2istr':
+    'prefix': 'num2istr'
+    'body': 'num2istr(num )'
+  'num2str':
+    'prefix': 'num2str'
+    'body': 'num2str(num )'
+  'NumberByKey':
+    'prefix': 'NumberByKey'
+    'body': 'NumberByKey(keyStr, kwListStr  [, keySepStr  [, listSepStr [, matchCase ]]])'
+  'numpnts':
+    'prefix': 'numpnts'
+    'body': 'numpnts(waveName )'
+  'numtype':
+    'prefix': 'numtype'
+    'body': 'numtype(num )'
+  'NumVarOrDefault':
+    'prefix': 'NumVarOrDefault'
+    'body': 'NumVarOrDefault(pathStr, defVal )'
+  'NVAR':
+    'prefix': 'NVAR'
+    'body': 'NVAR'
+  'NVAR_Exists':
+    'prefix': 'NVAR_Exists'
+    'body': 'NVAR_Exists(name )'
+  'Snippet Name':
+    'prefix': 'Snippet Trigger'
+    'body': 'Hello World!'

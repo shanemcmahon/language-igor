@@ -1,0 +1,16 @@
+'.source.ipf':
+  'x2pnt':
+    'prefix': 'x2pnt'
+    'body': 'x2pnt(waveName, x1 )'
+  'xcsr':
+    'prefix': 'xcsr'
+    'body': 'xcsr(cursorName  [, graphNameStr ])'
+  'XLLoadWave':
+    'prefix': 'XLLoadWave'
+    'body': 'XLLoadWave [flags ] fileNameStr'
+  'XWaveName':
+    'prefix': 'XWaveName'
+    'body': 'XWaveName(graphNameStr, traceNameStr )'
+  'XWaveRefFromTrace':
+    'prefix': 'XWaveRefFromTrace'
+    'body': 'XWaveRefFromTrace(graphNameStr, traceNameStr )'

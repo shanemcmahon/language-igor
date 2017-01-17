@@ -1,0 +1,20 @@
+'.source.ipf':
+  'Open':
+    'prefix': 'Open'
+    'body': 'Open [ /A /C=creatorStr  /D[=mode ] /F=fileFilterStr  /M=messageStr  /MULT=m  /P=pathName /R /T=typeStr  /Z[=z] ] refNum  [as fileNameStr]'
+  'OpenHelp':
+    'prefix': 'OpenHelp'
+    'body': 'OpenHelp [flags] fileNameStr'
+  'OpenNotebook':
+    'prefix': 'OpenNotebook'
+    'body': 'OpenNotebook [/A  /K=k  /M=messageStr  /N=winName  /P=pathName /R /T=typeStr  /V=visible  /W=(left,top,right,bottom) /Z] [fileNameStr ]'
+  'OperationList':
+    'prefix': 'OperationList'
+    'body': 'OperationList(matchStr, separatorStr, optionsStr )'
+  'Optimize':
+    'prefix': 'Optimize'
+    'body': 'Optimize [/H=highBracket /L=lowBracket ] [/I=maxIters] [/Q] [/T=tol ] funcspec, pWave'
+  'Override':
+    'prefix': 'Override'
+    'body': 'Override'
+  

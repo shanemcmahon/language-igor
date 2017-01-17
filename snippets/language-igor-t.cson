@@ -1,0 +1,118 @@
+'.source.ipf':
+  'TabControl':
+    'prefix': 'TabControl'
+    'body': 'TabControl [/Z] ctrlName  [ keyword = value  [, keyword = value ...] ]'
+  'Table':
+    'prefix': 'Table'
+    'body': 'Table'
+  'TableInfo':
+    'prefix': 'TableInfo'
+    'body': 'TableInfo(winNameStr, itemIndex)'
+  'TableStyle':
+    'prefix': 'TableStyle'
+    'body': 'TableStyle'
+  'Tag':
+    'prefix': 'Tag'
+    'body': 'Tag [flags] [traceOrAxisName, xAttach  [, textStr ]]'
+  'TagVal':
+    'prefix': 'TagVal'
+    'body': 'TagVal(code )'
+  'TagWaveRef':
+    'prefix': 'TagWaveRef'
+    'body': 'TagWaveRef()'
+  'tan':
+    'prefix': 'tan'
+    'body': 'tan(angle )'
+  'tanh':
+    'prefix': 'tanh'
+    'body': 'tanh(num )'
+  'TextBox':
+    'prefix': 'TextBox'
+    'body': 'TextBox [/W=winName /A=anchorCode /B=(r,g,b )/B=trans /C/D={thickMult  [, shadowThick [, haloThick ]]}/E[=exterior ] /F=frame /G=(r,g,b) /H=legendSymbolWidth /K/LS= linespace /M[=saMeSize ] /N=name /O=rot /R=newName /S=style /T=tabSpec /V=vis /X=xOffset /Y=yOffset /Z=freeze [textStr ]'
+  'TextEncoding':
+    'prefix': 'TextEncoding'
+    'body': 'TextEncoding'
+  'TextEncodingCode':
+    'prefix': 'TextEncodingCode'
+    'body': 'TextEncodingCode(textEncodingNameStr )'
+  'TextEncodingName':
+    'prefix': 'TextEncodingName'
+    'body': 'TextEncodingName(textEncoding , index )'
+  'TextFile':
+    'prefix': 'TextFile'
+    'body': 'TextFile(pathName, index  [, creatorStr ])'
+  'ThreadGroupCreate':
+    'prefix': 'ThreadGroupCreate'
+    'body': 'ThreadGroupCreate(nt )'
+  'ThreadGroupGetDF':
+    'prefix': 'ThreadGroupGetDF'
+    'body': 'ThreadGroupGetDF(tgID, waitms )'
+  'ThreadGroupGetDFR':
+    'prefix': 'ThreadGroupGetDFR'
+    'body': 'ThreadGroupGetDFR(tgID, waitms )'
+  'ThreadGroupPutDF':
+    'prefix': 'ThreadGroupPutDF'
+    'body': 'ThreadGroupPutDF tgID, datafolder'
+  'ThreadGroupRelease':
+    'prefix': 'ThreadGroupRelease'
+    'body': 'ThreadGroupRelease(tgID )'
+  'ThreadGroupWait':
+    'prefix': 'ThreadGroupWait'
+    'body': 'ThreadGroupWait(tgID, waitms )'
+  'ThreadProcessorCount':
+    'prefix': 'ThreadProcessorCount'
+    'body': 'ThreadProcessorCount'
+  'ThreadReturnValue':
+    'prefix': 'ThreadReturnValue'
+    'body': 'ThreadReturnValue(tgID, index )'
+  'ThreadSafe':
+    'prefix': 'ThreadSafe'
+    'body': 'ThreadSafe'
+  'ThreadStart':
+    'prefix': 'ThreadStart'
+    'body': 'ThreadStart tgID, index, WorkerFunc (param1, param2,...)'
+  'ticks':
+    'prefix': 'ticks'
+    'body': 'ticks'
+  'Tile':
+    'prefix': 'Tile'
+    'body': 'Tile [/A=(rows,cols)/G=grout /I/M/O=objTypes /R/S/W=(left,top,right,bottom)] [objectName [, objectName ]...]'
+  'TileWindows':
+    'prefix': 'TileWindows'
+    'body': 'TileWindows [/A=(rows,cols)/C/G=grout /I/M/O=objTypes /P/R /W=(left,top,right,bottom)] [windowName [, windowName ]...]'
+  'time':
+    'prefix': 'time'
+    'body': 'time()'
+  'TitleBox':
+    'prefix': 'TitleBox'
+    'body': 'TitleBox [/Z] ctrlname  [ keyword = value  [, keyword = value ...] ]'
+  'ToCommandLine':
+    'prefix': 'ToCommandLine'
+    'body': 'ToCommandLine commandsStr'
+  'ToolsGrid':
+    'prefix': 'ToolsGrid'
+    'body': 'ToolsGrid [/W=winName ] keyword = value  [, keyword = value ...]'
+  'TraceFromPixel':
+    'prefix': 'TraceFromPixel'
+    'body': 'TraceFromPixel(xpixel, ypixel, optionsString )'
+  'TraceInfo':
+    'prefix': 'TraceInfo'
+    'body': 'TraceInfo(graphNameStr, yWaveNameStr, instance )'
+  'TraceNameList':
+    'prefix': 'TraceNameList'
+    'body': 'TraceNameList(graphNameStr, separatorStr, optionsFlag )'
+  'TraceNameToWaveRef':
+    'prefix': 'TraceNameToWaveRef'
+    'body': 'TraceNameToWaveRef(graphNameStr, traceNameStr )'
+  'Triangulate3d':
+    'prefix': 'Triangulate3d'
+    'body': 'Triangulate3D [/OUT=format ] srcWave'
+  'TrimString':
+    'prefix': 'TrimString'
+    'body': 'TrimString(str  [, simplifyInternalSpaces ])'
+  'trunc':
+    'prefix': 'trunc'
+    'body': 'trunc(num )'
+  'try':
+    'prefix': 'try'
+    'body': 'try'

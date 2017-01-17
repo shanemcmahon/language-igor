@@ -1,0 +1,151 @@
+'.source.ipf':
+  'p2rect':
+    'prefix': 'p2rect'
+    'body': 'p2rect(z )'
+  'PadString':
+    'prefix': 'PadString'
+    'body': 'PadString(str, finalLength, padValue )'
+  'Panel':
+    'prefix': 'Panel'
+    'body': 'Panel'
+  'PanelResolution':
+    'prefix': 'PanelResolution'
+    'body': 'PanelResolution(wName )'
+  'ParamIsDefault':
+    'prefix': 'ParamIsDefault'
+    'body': 'ParamIsDefault(pName )'
+  'ParseFilePath':
+    'prefix': 'ParseFilePath'
+    'body': 'ParseFilePath(mode, pathInStr, separatorStr, whichEnd, whichElement)'
+  'ParseOperationTemplate':
+    'prefix': 'ParseOperationTemplate'
+    'body': 'ParseOperationTemplate [/C=c /S=s /T/TS] cmdTemplate '
+  'PathInfo':
+    'prefix': 'PathInfo'
+    'body': 'PathInfo [/S  /SHOW ] pathName'
+  'PathList':
+    'prefix': 'PathList'
+    'body': 'PathList(matchStr, separatorStr, optionsStr )'
+  'PauseForUser':
+    'prefix': 'PauseForUser'
+    'body': 'PauseForUser [/C] mainWindowName  [, targetWindowName ]'
+  'PauseUpdate':
+    'prefix': 'PauseUpdate'
+    'body': 'PauseUpdate'
+  'PCA':
+    'prefix': 'PCA'
+    'body': 'PCA [/ALL/COV/CVAR/IE/IND/LEIV/NF/O /Q /RSD[=rsdMode ] /RMS/SCMT /SCR/SDM/SEVC/SL/SQEV/SRMT/U/VAR/WSTR=waveListStr /Z] [wave0, wave1, wave2 ... wave99 ]'
+  'pcsr':
+    'prefix': 'pcsr'
+    'body': 'pcsr(cursorName  [, graphNameStr ])'
+  'PICTInfo':
+    'prefix': 'PICTInfo'
+    'body': 'PICTInfo(pictNameStr )'
+  'PICTList':
+    'prefix': 'PICTList'
+    'body': 'PICTList(matchStr, separatorStr, optionsStr )'#
+  'Picture':
+    'prefix': 'Picture'
+    'body': 'Picture'
+  'PixelFromAxisVal':
+    'prefix': 'PixelFromAxisVal'
+    'body': 'PixelFromAxisVal(graphNameStr, axNameStr, val )'
+  'PlayMovie':
+    'prefix': 'PlayMovie'
+    'body': 'PlayMovie [/I/M/P=pathName /W=(left, top, right, bottom) /Z] [as fileNameStr ]'
+  'PlayMovieAction':
+    'prefix': 'PlayMovieAction'
+    'body': 'PlayMovieAction [/Z] keyword  [=value ] [, keyword  [=value ]]'
+  'PlaySound':
+    'prefix': 'PlaySound'
+    'body': 'PlaySound [/A [=a ] /C] soundWave'
+  'pnt2x':
+    'prefix': 'pnt2x'
+    'body': 'pnt2x(waveName, pointNum )'
+  'Point':
+    'prefix': 'Point'
+    'body': 'Point'
+  'PointF':
+    'prefix': 'PointF'
+    'body': 'PointF'
+  'poissonNoise':
+    'prefix': 'poissonNoise'
+    'body': 'poissonNoise(num )'
+  'poly':
+    'prefix': 'poly'
+    'body': 'poly(coefsWaveName, x1 )'
+  'poly2D':
+    'prefix': 'poly2D'
+    'body': 'poly2D(coefsWaveName, x1, y1 )'
+  'PolygonArea':
+    'prefix': 'PolygonArea'
+    'body': 'PolygonArea(xWave, yWave )'
+  'Popup':
+    'prefix': 'Popup'
+    'body': 'Popup menuList'
+  'PopupContextualMenu':
+    'prefix': 'PopupContextualMenu'
+    'body': 'PopupContextualMenu [/C=(xpix, ypix) /N /ASYN[=func] ] popupStr'
+  'PopupMenu':
+    'prefix': 'PopupMenu'
+    'body': 'PopupMenu [/Z] ctrlName  [ keyword = value  [, keyword = value ...] ]'
+  'PopupMenuControl':
+    'prefix': 'PopupMenuControl'
+    'body': 'PopupMenuControl'
+  'PossiblyQuoteName':
+    'prefix': 'PossiblyQuoteName'
+    'body': 'PossiblyQuoteName(nameStr )'
+  'Preferences':
+    'prefix': 'Preferences'
+    'body': 'Preferences [/Q] [newPrefsState ]'
+  'PrimeFactors':
+    'prefix': 'PrimeFactors'
+    'body': 'PrimeFactors [/Q]  inNumber'
+  'Print':
+    'prefix': 'Print'
+    'body': 'Print [/C/D/F/LEN/S/SR] expression  [, expression ]...'
+  'printf':
+    'prefix': 'printf'
+    'body': 'printf formatStr [, parameter  [, parameter ]...]'
+  'PrintGraphs':
+    'prefix': 'PrintGraphs'
+    'body': 'PrintGraphs [ flags ] graphSpec  [, graphSpec ]...'
+  'PrintLayout':
+    'prefix': 'PrintLayout'
+    'body': 'PrintLayout [/C=num /D] winName'
+  'PrintNotebook':
+    'prefix': 'PrintNotebook'
+    'body': 'PrintNotebook [/B=hiResMethod /P=(startPage,endPage)/S=s] notebookName'
+  'PrintSettings':
+    'prefix': 'PrintSettings'
+    'body': 'PrintSettings [ /I /M /W=winName ] [ keyword = value  [, keyword = value ...] ] '
+  'PrintTable':
+    'prefix': 'PrintTable'
+    'body': 'PrintTable [ /P=(startPage,endPage) /S=s ] winName'
+  'Proc':
+    'prefix': 'Proc'
+    'body': 'Proc'
+  'ProcedureText':
+    'prefix': 'ProcedureText'
+    'body': 'ProcedureText(macroOrFunctionNameStr  [, linesOfContext  [, procedureWinTitleStr ]])'
+  'ProcGlobal':
+    'prefix': 'ProcGlobal'
+    'body': 'ProcGlobal'
+  'Project':
+    'prefix': 'Project'
+    'body': 'Project [/C={long,lat }/M=method /P={p1,p2,...}] longitudeWave, latitudeWave'
+  'Prompt':
+    'prefix': 'Prompt'
+    'body': 'Prompt variableName, titleStr  [, popup, menuListStr ]'
+  'PulseStats':
+    'prefix': 'PulseStats'
+    'body': 'PulseStats [/A=n /B=box /F=f  /L=(startLevel, endLevel )/M=dx /P/Q /R=(startX,endX )/T=dx ] waveName'
+  'PutScrapText':
+    'prefix': 'PutScrapText'
+    'body': 'PutScrapText textStr'
+  'pwd':
+    'prefix': 'pwd'
+    'body': 'pwd'
+  'Snippet Name':
+    'prefix': 'Snippet Trigger'
+    'body': 'Hello World!'

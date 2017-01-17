@@ -1,0 +1,515 @@
+'.source.ipf':
+    'AppendText':
+      'prefix': 'AppendText'
+      'body': 'AppendText [/W=winName /N=name /NOCR[=n ]] textStr'
+    'AppendToGizmo':
+      'prefix': 'AppendToGizmo'
+      'body': 'AppendToGizmo [flags] keyword [=value ]'
+    'AppendToGraph':
+      'prefix': 'AppendToGraph'
+      'body': 'AppendToGraph [/W=winName /B[=axisName ] /C=(r,g,b)/L[=axisName ] /NCAT/Q/R [=axisName ] /T[=axisName ]/VERT] waveName  [, waveName ] ... [vs xwaveName ]'
+    'AppendToLayout':
+      'prefix': 'AppendToLayout'
+      'body': 'AppendToLayout [/G=g /I/M/R/T/S] objectSpec  [, objectSpec ]...'
+    'AppendToTable':
+      'prefix': 'AppendToTable'
+      'body': 'AppendToTable  [/W=winName ] columnSpec [, columnSpec ]...'
+    'AppendXYZContour':
+      'prefix': 'AppendXYZContour'
+      'body': 'AppendXYZContour [axisFlags ][/W=winName /F=formatStr ] zWave [vs {xWave, yWave }]'
+    'area':
+      'prefix': 'area'
+      'body': 'area(waveName  [, x1, x2  ] )'
+    'areaXY':
+      'prefix': 'areaXY'
+      'body': 'areaXY(XWaveName, YWaveName  [, x1, x2  ] )'
+    'asin':
+      'prefix': 'asin'
+      'body': 'asin(num )'
+    'asinh':
+      'prefix': 'asinh'
+      'body': 'asinh(num )'
+    'atan':
+      'prefix': 'atan'
+      'body': 'atan(num )'
+    'atan2':
+      'prefix': 'atan2'
+      'body': 'atan2(y1, x1 )'
+    'atanh':
+      'prefix': 'atanh'
+      'body': 'atanh(num )'
+    'AutoPositionWindow':
+      'prefix': 'AutoPositionWindow'
+      'body': 'AutoPositionWindow[/E][/M=m ][/R=relWindow ] [windowName ]'
+    'AxisInfo':
+      'prefix': 'AxisInfo'
+      'body': 'AxisInfo(graphNameStr, axisNameStr )'
+    'AxisList':
+      'prefix': 'AxisList'
+      'body': 'AxisList(graphNameStr )'
+    'AxisValFromPixel':
+      'prefix': 'AxisValFromPixel'
+      'body': 'AxisValFromPixel(graphNameStr, axNameStr, pixel )'
+    'BackgroundInfo':
+      'prefix': 'BackgroundInfo'
+      'body': 'BackgroundInfo'
+    'Beep':
+      'prefix': 'Beep'
+      'body': 'Beep'
+    'Besseli':
+      'prefix': 'Besseli'
+      'body': 'Besseli(n, z )'
+    'Besselj':
+      'prefix': 'Besselj'
+      'body': 'Besselj(n, z )'
+    'Besselk':
+      'prefix': 'Besselk'
+      'body': 'Besselk(n, z )'
+    'Bessely':
+      'prefix': 'Bessely'
+      'body': 'Bessely(n, z )'
+    'beta':
+      'prefix': 'beta'
+      'body': 'beta(a, b )'
+    'betai':
+      'prefix': 'betai'
+      'body': 'betai(a, b, x [, accuracy ])'
+    'BinarySearch':
+      'prefix': 'BinarySearch'
+      'body': 'BinarySearch(waveName, val )'
+    'BinarySearchInterp':
+      'prefix': 'BinarySearchInterp'
+      'body': 'BinarySearchInterp(waveName, val )'
+    'binomial':
+      'prefix': 'binomial'
+      'body': 'binomial(n, k )'
+    'binomialln':
+      'prefix': 'binomialln'
+      'body': 'binomialln(a, b )'
+    'binomialNoise':
+      'prefix': 'binomialNoise'
+      'body': 'binomialNoise(n, p )'
+    'BoundingBall':
+      'prefix': 'BoundingBall'
+      'body': 'BoundingBall [/F/Z] scatterWave'
+    'BoxSmooth':
+      'prefix': 'BoxSmooth'
+      'body': 'BoxSmooth box, srcWaveName, smoothedWaveName'
+    'break':
+      'prefix': 'break'
+      'body': 'break'
+    'BrowseURL':
+      'prefix': 'BrowseURL'
+      'body': 'BrowseURL [/Z ] urlStr'
+    'BuildMenu':
+      'prefix': 'BuildMenu'
+      'body': 'BuildMenu menuNameStr'
+    'Button':
+      'prefix': 'Button'
+      'body': 'Button [/Z] ctrlName  [ keyword = value  [, keyword = value ...] ]'
+    'ButtonControl':
+      'prefix': 'ButtonControl'
+      'body': 'ButtonControl'
+    'cabs':
+      'prefix': 'cabs'
+      'body': 'cabs(z )'
+    'CaptureHistory':
+      'prefix': 'CaptureHistory'
+      'body': 'CaptureHistory(refnum, stopCapturing )'
+    'CaptureHistoryStart':
+      'prefix': 'CaptureHistoryStart'
+      'body': 'CaptureHistoryStart()'
+    'catch':
+      'prefix': 'catch'
+      'body': 'catch'
+    'cd':
+      'prefix': 'cd'
+      'body': 'cd dataFolderSpec'
+    'ceil':
+      'prefix': 'ceil'
+      'body': 'ceil(num )'
+    'cequal':
+      'prefix': 'cequal'
+      'body': 'cequal(z1, z2 )'
+    'char2num':
+      'prefix': 'char2num'
+      'body': 'char2num(str )'
+    'Chart':
+      'prefix': 'Chart'
+      'body': 'Chart ctrlName [ keyword = value  [, keyword = value ...] ]'
+    'chebyshev':
+      'prefix': 'chebyshev'
+      'body': 'chebyshev(n, x )'
+    'chebyshevU':
+      'prefix': 'chebyshevU'
+      'body': 'chebyshevU(n, x )'
+    'CheckBox':
+      'prefix': 'CheckBox'
+      'body': 'CheckBox [/Z] ctrlName  [ keyword = value  [, keyword = value ...] ]'
+    'CheckboxControl':
+      'prefix': 'CheckboxControl'
+      'body': 'CheckboxControl'
+    'CheckDisplayed':
+      'prefix': 'CheckDisplayed'
+      'body': 'CheckDisplayed [/A/W=winName ] waveName [, waveName ]...'
+    'CheckName':
+      'prefix': 'CheckName'
+      'body': 'CheckName(nameStr, objectType   [, windowNameStr ])'
+    'ChildWindowList':
+      'prefix': 'ChildWindowList'
+      'body': 'ChildWindowList(hostNameStr )'
+    'ChooseColor':
+      'prefix': 'ChooseColor'
+      'body': 'ChooseColor [/A[=a]/C=(r,g,b )]'
+    'CleanupName':
+      'prefix': 'CleanupName'
+      'body': 'CleanupName(nameStr, beLiberal )'
+    'Close':
+      'prefix': 'Close'
+      'body': 'Close [/A] [fileRefNum ]'
+    'CloseHelp':
+      'prefix': 'CloseHelp'
+      'body': 'CloseHelp [ /FILE=fileNameStr  /NAME=helpNameStr  /P=pathName ]'
+    'CloseMovie':
+      'prefix': 'CloseMovie'
+      'body': 'CloseMovie'
+    'CloseProc':
+      'prefix': 'CloseProc'
+      'body': 'CloseProc  /NAME=procNameStr  [/P=PathName ] [/COMP=[compile ] [/D=[delete ]] [/SAVE[=savePathStr ]]'
+    'cmplx':
+      'prefix': 'cmplx'
+      'body': 'cmplx(realPart, imagPart )'
+    'cmpstr':
+      'prefix': 'cmpstr'
+      'body': 'cmpstr(str1, str2  [, flags ])'
+    'ColorScale':
+      'prefix': 'ColorScale'
+      'body': 'ColorScale [flags] [, keyword = value, ...] [axisLabelStr ]'
+    'ColorTab2Wave':
+      'prefix': 'ColorTab2Wave'
+      'body': 'ColorTab2Wave colorTableName'
+    'complex':
+      'prefix': 'complex'
+      'body': 'complex'
+    'Concatenate':
+      'prefix': 'Concatenate'
+      'body': 'Concatenate [ /DL /KILL /NP[=dim ] /O] [typeFlags ]  waveListStr, destWave'
+    'conj':
+      'prefix': 'conj'
+      'body': 'conj(z )'
+    'Constant':
+      'prefix': 'Constant'
+      'body': 'Constant'
+    'continue':
+      'prefix': 'continue'
+      'body': 'continue'
+    'ContourInfo':
+      'prefix': 'ContourInfo'
+      'body': 'ContourInfo(graphNameStr, contourWaveNameStr, instanceNumber )'
+    'ContourNameList':
+      'prefix': 'ContourNameList'
+      'body': 'ContourNameList(graphNameStr, separatorStr )'
+    'ContourNameToWaveRef':
+      'prefix': 'ContourNameToWaveRef'
+      'body': 'ContourNameToWaveRef(graphNameStr, contourNameStr )'
+    'ContourZ':
+      'prefix': 'ContourZ'
+      'body': 'ContourZ(graphNameStr, contourNameStr, instance, x, y [,pointFindingTolerance] )'
+    'ControlBar':
+      'prefix': 'ControlBar'
+      'body': 'ControlBar [/L/R/B/T/W=graphName ]barHeight'
+    'ControlInfo':
+      'prefix': 'ControlInfo'
+      'body': 'ControlInfo [/W=winName ] controlName'
+    'ControlNameList':
+      'prefix': 'ControlNameList'
+      'body': 'ControlNameList(winNameStr  [, listSepStr  [, matchStr ] ])'
+    'ControlUpdate':
+      'prefix': 'ControlUpdate'
+      'body': 'ControlUpdate [/A /W=winName ] [controlName ]'
+    'ConvertGlobalStringTextEncoding':
+      'prefix': 'ConvertGlobalStringTextEncoding'
+      'body': 'ConvertGlobalStringTextEncoding [flags ] originalTextEncoding, newTextEncoding , [string , string, ...]'
+    'ConvertTextEncoding':
+      'prefix': 'ConvertTextEncoding'
+      'body': 'ConvertTextEncoding(sourceTextStr , sourceTextEncoding , destTextEncoding , mapErrorMode, options )'
+    'ConvexHull':
+      'prefix': 'ConvexHull'
+      'body': 'ConvexHull [/C/E/I/S/T=tolerance /V/Z] xwave, ywave '
+    'Convolve':
+      'prefix': 'Convolve'
+      'body': 'Convolve [/A/C] srcWaveName, destWaveName [, destWaveName ]...'
+    'CopyFile':
+      'prefix': 'CopyFile'
+      'body': 'CopyFile [/D /I[=i ]/M=messageStr /O/P=pathName /S=saveMessageStr /Z[=z ] ]  [srcFileStr ]  [ as destFileOrFolderStr ]'
+    'CopyFolder':
+      'prefix': 'CopyFolder'
+      'body': 'CopyFolder [/D/I[=i]/M=messageStr /O/P=pathName /S=saveMessageStr /Z[=z ] ]  [srcFolderStr ]  [ as destFolderStr ]'
+    'CopyScales':
+      'prefix': 'CopyScales'
+      'body': 'CopyScales [/I/P] srcWaveName, waveName [, waveName ]...'
+    'Correlate':
+      'prefix': 'Correlate'
+      'body': 'Correlate [/AUTO/C/NODC] srcWaveName, destWaveName [, destWaveName ]...'
+    'cos':
+      'prefix': 'cos'
+      'body': 'cos(angle )'
+    'cosh':
+      'prefix': 'cosh'
+      'body': 'cosh(num )'
+    'cosIntegral':
+      'prefix': 'cosIntegral'
+      'body': 'CosIntegral(z )'
+    'cot':
+      'prefix': 'cot'
+      'body': 'cot(angle )'
+    'coth':
+      'prefix': 'coth'
+      'body': 'coth(num )'
+    'CountObjects':
+      'prefix': 'CountObjects'
+      'body': 'CountObjects(sourceFolderStr, objectType )'
+    'CountObjectsDFR':
+      'prefix': 'CountObjectsDFR'
+      'body': 'CountObjectsDFR(dfr, objectType )'
+    'cpowi':
+      'prefix': 'cpowi'
+      'body': 'cpowi(num, ipow )'
+    'CreateAliasShortcut':
+      'prefix': 'CreateAliasShortcut'
+      'body': 'CreateAliasShortcut [/D/I[=i ]/M=messageStr /O/P=pathName /S=saveMessageStr /Z[=z ] ]  [targetFileDirStr ]  [ as aliasFileStr ]'
+    'CreateBrowser':
+      'prefix': 'CreateBrowser'
+      'body': 'CreateBrowser [/M] [ keyword = value  [, keyword = value ...] ]'
+    'CreationDate':
+      'prefix': 'CreationDate'
+      'body': 'CreationDate(waveName )'
+    'Cross':
+      'prefix': 'Cross'
+      'body': 'Cross [ /DEST=destWave  /FREE /T /Z] vectorA, vectorB  [, vectorC ]'
+    'csc':
+      'prefix': 'csc'
+      'body': 'csc(angle )'
+    'csch':
+      'prefix': 'csch'
+      'body': 'csch(x)'
+    'CsrInfo':
+      'prefix': 'CsrInfo'
+      'body': 'CsrInfo(cursorName  [, graphNameStr ])'
+    'CsrWave':
+      'prefix': 'CsrWave'
+      'body': 'CsrWave(cursorName  [, graphNameStr  [, wantTraceName ]])'
+    'CsrWaveRef':
+      'prefix': 'CsrWaveRef'
+      'body': 'CsrWaveRef(cursorName  [, graphNameStr ])'
+    'CsrXWave':
+      'prefix': 'CsrXWave'
+      'body': 'CsrXWave(cursorName  [, graphNameStr ])'
+    'CsrXWaveRef':
+      'prefix': 'CsrXWaveRef'
+      'body': 'CsrXWaveRef(cursorName  [, graphNameStr ])'
+    'CTabList':
+      'prefix': 'CTabList'
+      'body': 'CTabList()'
+    'CtrlBackground':
+      'prefix': 'CtrlBackground'
+      'body': 'CtrlBackground [start[=startTicks ], period=deltaTicks, dialogsOK=d, noBurst=n, stop]'
+    'CtrlFIFO':
+      'prefix': 'CtrlFIFO'
+      'body': 'CtrlFIFO FIFOName, [deltaT=dt, note=noteStr, file=oRefNum, rfile=rRefNum, rdfile=rRefNum, doffset=dataOffset, dsize=dataSize, swap, size=s, start, stop, close, flush]'
+    'CtrlNamedBackground':
+      'prefix': 'CtrlNamedBackground'
+      'body': 'CtrlNamedBackground taskName , keyword  = value  [, keyword  = value ...]'
+    'Cursor':
+      'prefix': 'Cursor'
+      'body': 'Cursor [flags] cursorName  traceName  x_value'
+    'CursorStyle':
+      'prefix': 'CursorStyle'
+      'body': 'CursorStyle'
+    'CurveFit':
+      'prefix': 'CurveFit'
+      'body': 'CurveFit [ flags ] fitType, [kwCWave=coefWaveName ,] waveName  [ flag parameters ]'
+    'CustomControl':
+      'prefix': 'CustomControl'
+      'body': 'CustomControl [/Z] ctrlName  [ keyword = value  [, keyword = value ...] ]'
+    'CWT':
+      'prefix': 'CWT'
+      'body': 'CWT [/ENDM=method ][/FSCL][/M=method  /WBI1={Wavelet1 [, order1]}][/WPR1=waveletParam ] [/R1={start1, delta1, n1, scale1 }] /R2={start2, delta2, n2, scale2 }[/SW1=offsetWave ] [/SW2=scalingWave ] [/Q /Z /OUT=format ] srcWave'
+    'DataFolderDir':
+      'prefix': 'DataFolderDir'
+      'body': 'DataFolderDir(mode [, dfr ] )'
+    'DataFolderExists':
+      'prefix': 'DataFolderExists'
+      'body': 'DataFolderExists(dataFolderNameStr )'
+    'DataFolderRefsEqual':
+      'prefix': 'DataFolderRefsEqual'
+      'body': 'DataFolderRefsEqual(dfr1 , dfr2 )'
+    'DataFolderRefStatus':
+      'prefix': 'DataFolderRefStatus'
+      'body': 'DataFolderRefStatus(dfr )'
+    'date':
+      'prefix': 'date'
+      'body': 'date()'
+    'date2secs':
+      'prefix': 'date2secs'
+      'body': 'date2secs(year, month, day )'
+    'datetime':
+      'prefix': 'datetime'
+      'body': 'DateTime'
+    'DateToJulian':
+      'prefix': 'DateToJulian'
+      'body': 'dateToJulian(year, month, day )'
+    'Dawson':
+      'prefix': 'Dawson'
+      'body': 'dawson(x )'
+    'Debugger':
+      'prefix': 'Debugger'
+      'body': 'Debugger'
+    'DebuggerOptions':
+      'prefix': 'DebuggerOptions'
+      'body': 'DebuggerOptions [enable=en, debugOnError=doe, NVAR_SVAR_WAVE_Checking=nvwc]'
+    'default':
+      'prefix': 'default'
+      'body': 'default'
+    'DefaultFont':
+      'prefix': 'DefaultFont'
+      'body': 'DefaultFont [/U] "fontName "'
+    'DefaultGuiControls':
+      'prefix': 'DefaultGuiControls'
+      'body': 'DefaultGUIControls [/W=winName /Mac/Win] [ appearance ]'
+    'DefaultGuiFont':
+      'prefix': 'DefaultGuiFont'
+      'body': 'DefaultGUIFont [/W=winName /Mac/Win] group= {fNameStr, fSize, fStyle } [, ...]'
+    'DefaultTextEncoding':
+      'prefix': 'DefaultTextEncoding'
+      'body': 'DefaultTextEncoding [encoding=textEncoding , overrideExperimentTextEncoding=override ]'
+    'defined':
+      'prefix': 'defined'
+      'body': 'defined(symbol)'
+    'DefineGuide':
+      'prefix': 'DefineGuide'
+      'body': 'DefineGuide [/W=winName ] newGuideName = {[guideName1, val  [, guideName2 ]]} [, ...]'
+    'DelayUpdate':
+      'prefix': 'DelayUpdate'
+      'body': 'DelayUpdate'
+    'DeleteAnnotations':
+      'prefix': 'DeleteAnnotations'
+      'body': 'DeleteAnnotations [flags] [tagOffscreen, tagTraceHidden, invisible, 								offsetOffscreen, tooSmall[=size ]]'
+    'DeleteFile':
+      'prefix': 'DeleteFile'
+      'body': 'DeleteFile [/I/M=messageStr /P=pathName  /Z ]  [fileNameStr  ]'
+    'DeleteFolder':
+      'prefix': 'DeleteFolder'
+      'body': 'DeleteFolder [/I/M=messageStr /P=pathName /Z ]  [folderNameStr  ]'
+    'DeletePoints':
+      'prefix': 'DeletePoints'
+      'body': 'DeletePoints [/M=dim ] startElement, numElements, waveName [, waveName ]...'
+    'deltax':
+      'prefix': 'deltax'
+      'body': 'deltax(waveName )'
+    'DFREF':
+      'prefix': 'DFREF'
+      'body': 'DFREF'
+    'Differentiate':
+      'prefix': 'Differentiate'
+      'body': 'Differentiate [/DIM = d  /EP=e  /METH=m  /P ][typeFlags ] yWaveA  [/X=xWaveA ] [/D=destWaveA ][, yWaveB  [/X=xWaveB ][/D=destWaveB ][, ...]]'
+    'digamma':
+      'prefix': 'digamma'
+      'body': 'digamma(x )'
+    'dilogarithm':
+      'prefix': 'dilogarithm'
+      'body': 'Dilogarithm(z)'
+    'DimDelta':
+      'prefix': 'DimDelta'
+      'body': 'DimDelta(waveName, dimNumber )'
+    'DimOffset':
+      'prefix': 'DimOffset'
+      'body': 'DimOffset(waveName, dimNumber )'
+    'DimSize':
+      'prefix': 'DimSize'
+      'body': 'DimSize(waveName, dimNumber )'
+    'dir':
+      'prefix': 'dir'
+      'body': 'Dir [dataFolderSpec ]'
+    'Display':
+      'prefix': 'Display'
+      'body': 'Display [/B[=axisName /HIDE=h ]/FG=(gLeft, gTop, gRight, gBottom ) /HOST=hcSpec /I/K=k /L[=axisName]/M /N=name /PG=(gLeft, gTop, gRight, gBottom )/R[=axisName ] /T[=axisName ] /VERT/W=(left, top, right, bottom )] [waveName [,waveName ] ... [vs xwaveName ]] [as titleStr ]'
+    'DisplayHelpTopic':
+      'prefix': 'DisplayHelpTopic'
+      'body': 'DisplayHelpTopic [/K=k  /Z] TopicString'
+    'DisplayProcedure':
+      'prefix': 'DisplayProcedure'
+      'body': 'DisplayProcedure [/B=winTitleOrName  /L=lineNum  /W=procWinTitle ] [functionOrMacroNameStr ]'
+    'DoAlert':
+      'prefix': 'DoAlert'
+      'body': 'DoAlert [/T=titleStr] alertType, promptStr'
+    'DoIgorMenu':
+      'prefix': 'DoIgorMenu'
+      'body': 'DoIgorMenu [/C /OVRD] MenuNameStr, MenuItemStr'
+    'DoPrompt':
+      'prefix': 'DoPrompt'
+      'body': 'DoPrompt [/HELP=helpStr ] dialogTitleStr, variable  [, variable ]...'
+    'double':
+      'prefix': 'double'
+      'body': 'double'
+    'DoUpdate':
+      'prefix': 'DoUpdate'
+      'body': 'DoUpdate [ /E=e  /W=targWin  /SPIN=ticks ]'
+    'DoWindow':
+      'prefix': 'DoWindow'
+      'body': 'DoWindow [/B[=bname ]/C/D/F/H/HIDE=h /K/N/R/W=targWin ] [windowName ]'
+    'DoXOPIdle':
+      'prefix': 'DoXOPIdle'
+      'body': 'DoXOPIdle'
+    'DPSS':
+      'prefix': 'DPSS'
+      'body': 'DPSS [flags] numPoints, numWindows'
+    'DrawAction':
+      'prefix': 'DrawAction'
+      'body': 'DrawAction [/L=layerName /W=winName  ] keyword = value [, keyword = value ...]'
+    'DrawArc':
+      'prefix': 'DrawArc'
+      'body': 'DrawArc [/W=winName /X/Y] xOrg, yOrg, arcRadius, startAngle, stopAngle'
+    'DrawBezier':
+      'prefix': 'DrawBezier'
+      'body': 'DrawBezier [/W=winName /ABS] xOrg, yOrg, hScaling, vScaling, xWaveName, yWaveName'
+    'DrawLine':
+      'prefix': 'DrawLine'
+      'body': 'DrawLine [/W=winName ] x0, y0, x1, y1'
+    'DrawOval':
+      'prefix': 'DrawOval'
+      'body': 'DrawOval [/W=winName ] left, top, right, bottom'
+    'DrawPICT':
+      'prefix': 'DrawPICT'
+      'body': 'DrawPICT [/W=winName ][/RABS ] left, top, hScaling, vScaling, pictName'
+    'DrawPoly':
+      'prefix': 'DrawPoly'
+      'body': 'DrawPoly [/W=winName /ABS] xorg, yorg, hScaling, vScaling, xWaveName, yWaveName'
+    'DrawRect':
+      'prefix': 'DrawRect'
+      'body': 'DrawRect [/W=winName ] left, top, right, bottom'
+    'DrawRRect':
+      'prefix': 'DrawRRect'
+      'body': 'DrawRRect [/W=winName ] left, top, right, bottom'
+    'DrawText':
+      'prefix': 'DrawText'
+      'body': 'DrawText [/W=winName ] x0, y0, textStr'
+    'DrawUserShape':
+      'prefix': 'DrawUserShape'
+      'body': 'DrawUserShape [/W=winName /MO=options] x0, y0, x1, y1, userFuncName, textString, privateString'
+    'DSPDetrend':
+      'prefix': 'DSPDetrend'
+      'body': 'DSPDetrend [/F=function /M=maskWave /P=polyOrder /Q]  srcWave'
+    'DSPPeriodogram':
+      'prefix': 'DSPPeriodogram'
+      'body': 'DSPPeriodogram [/dB /dBR=ref  /COHR /DLSG /NODC=val  /NOR=value  /Q /SEGN={ptsPerSegment , overlapPts } /R=[start, end ] /R=(startX, endX) /WIN=windowKind  /Z ] srcWave [, srcWave2 ]'
+    'Duplicate':
+      'prefix': 'Duplicate'
+      'body': 'Duplicate [/O/R=(startX,endX )[(startY, endY )...]] [typeFlags ]  srcWaveName, destWaveName [, destWaveName ]...'
+    'DuplicateDataFolder':
+      'prefix': 'DuplicateDataFolder'
+      'body': 'DuplicateDataFolder sourceDataFolderSpec, destDataFolderSpec'
+    'DWT':
+      'prefix': 'DWT'
+      'body': 'DWT [/I/S/D/P=num/T=type /N=num /V=value] srcWaveName, destWaveName'
+    

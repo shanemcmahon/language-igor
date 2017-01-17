@@ -1,0 +1,88 @@
+'.source.ipf':
+  'Label':
+    'prefix': 'Label'
+    'body': 'Label [/W=winName /Z] axisName, labelStr'
+  'Laguerre':
+    'prefix': 'Laguerre'
+    'body': 'laguerre(n, x)'
+  'LaguerreA':
+    'prefix': 'LaguerreA'
+    'body': 'laguerreA(n, k, x)'
+  'LaguerreGauss':
+    'prefix': 'LaguerreGauss'
+    'body': 'laguerreGauss(p, m, r)'
+  'LambertW':
+    'prefix': 'LambertW'
+    'body': 'LambertW(z, branch)'
+  'Layout':
+    'prefix': 'Layout'
+    'body': 'Layout [/A=(rows,cols)/B=(r,g,b ) /C=color /G=g  /HIDE=h /I/K=k /M /P=orientation  /R/S/T /W=(left,top,right,bottom)] [objectSpec [, objectSpec ]...] [as titleStr ]'
+  'LayoutInfo':
+    'prefix': 'LayoutInfo'
+    'body': 'LayoutInfo(winNameStr, itemNameStr )'
+  'LayoutPageAction':
+    'prefix': 'LayoutPageAction'
+    'body': 'LayoutPageAction [/W=winName ] [ keyword = value  [, keyword = value ...] ]'
+  'LayoutSlideShow':
+    'prefix': 'LayoutSlideShow'
+    'body': 'LayoutSlideShow [/W=winName ] [keyword = value ] ...'
+  'leftx':
+    'prefix': 'leftx'
+    'body': 'leftx(waveName )'
+  'Legend':
+    'prefix': 'Legend'
+    'body': 'Legend [/A=attach /C/E[=exterior]/F=frame /H=legendSymbolWidth /H={legendSymbolWidth, minThickness, maxThickness } /J/K /M[=saMeSize]/N=name /R=newName /S=style /T=tabSpec /V=vis /W=winName /X=xoffset /Y=yoffset ] [legendStr ]'
+  'LegendreA':
+    'prefix': 'LegendreA'
+    'body': 'legendreA(n, m, x )'
+  'limit':
+    'prefix': 'limit'
+    'body': 'limit(num, low, high )'
+  'LinearFeedbackShiftRegister':
+    'prefix': 'LinearFeedbackShiftRegister'
+    'body': 'LinearFeedbackShiftRegister /N=nbits [/TAPS={t1, t2, ...} /TAPB=tapbits /MAX=index /MROR[=mirror] /INIT=initialValue /STOP=stopValue /LEN=length /DEST=destWave /FREE /MODE=doBitTrain ]'
+  'ListBox':
+    'prefix': 'ListBox'
+    'body': 'ListBox [/Z] ctrlName  [ keyword = value  [, keyword = value ...] ]'
+  'ListMatch':
+    'prefix': 'ListMatch'
+    'body': 'ListMatch(listStr, matchStr [, listSepStr ] )'
+  'ListToTextWave':
+    'prefix': 'ListToTextWave'
+    'body': 'ListToTextWave(listStr, separatorStr)'
+  'ListToWaveRefWave':
+    'prefix': 'ListToWaveRefWave'
+    'body': 'ListToWaveRefWave(stringList [, options])'
+  'ln':
+    'prefix': 'ln'
+    'body': 'ln(num )'
+  'LoadData':
+    'prefix': 'LoadData'
+    'body': 'LoadData [/D/I/J=objectNamesStr /L=loadFlags /O[=overwriteMode ] /P=pathName  /Q/R/S=subDataFolderStr /T[=topLevelName ] ] fileOrFolderNameStr'
+  'LoadPackagePreferences':
+    'prefix': 'LoadPackagePreferences'
+    'body': 'LoadPackagePreferences [ /MIS=mismatch  /P=pathName ] packageName , prefsFileName, recordID, prefsStruct'
+  'LoadPICT':
+    'prefix': 'LoadPICT'
+    'body': 'LoadPICT [/I=resIndex /M=promptStr /N=resNameStr /O/P=pathName /Q/R=resourceID /Z] [fileNameStr ] [, pictName ]'
+  'LoadWave':
+    'prefix': 'LoadWave'
+    'body': 'LoadWave [flags] fileNameStr'
+  'Loess':
+    'prefix': 'Loess'
+    'body': 'Loess [/CONF={confInt, ciPlusWaveName [,ciMinusWaveName]} /DEST=destWaveName /DFCT[={destFactorWaveName1 [,destFactorWaveName...]}] /E=extrapolate /N=neighbors  /ORD=order  /PASS=passes  /R=robust /SMTH= sf  /TIME=secs /V=verbose /Z=z ] srcWave=srcWaveName  [, factors=factorWaveName1 [, factorWaveName2...]]'
+  'log':
+    'prefix': 'log'
+    'body': 'log(num )'
+  'logNormalNoise':
+    'prefix': 'logNormalNoise'
+    'body': 'logNormalNoise(m,s )'
+  'LombPeriodogram':
+    'prefix': 'LombPeriodogram'
+    'body': 'LombPeriodogram [ /NF=numFrequencies  /DESP=datafolderAndName   /DEST=datafolderAndName  /FR=frequencyResolution  /Q /Z ] srcTimeWave, srcAmpWave [, srcFreqWave ]'
+  'lorentzianNoise':
+    'prefix': 'lorentzianNoise'
+    'body': 'lorentzianNoise(a, b)'
+  'LowerStr':
+    'prefix': 'LowerStr'
+    'body': 'LowerStr(str )'

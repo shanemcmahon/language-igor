@@ -1,0 +1,16 @@
+'.source.ipf':
+  'JacobiCn':
+    'prefix': 'JacobiCn'
+    'body': 'JacobiCn(x, k )'
+  'JacobiSn':
+    'prefix': 'JacobiSn'
+    'body': 'JacobiSn(x, k )'
+  'JCAMPLoadWave':
+    'prefix': 'JCAMPLoadWave'
+    'body': 'JCAMPLoadWave /A[=baseName ] /D /H /I /N[=baseName ] /O /P=pathName /Q /R /V /W [ fileNameStr ]'
+  'JointHistogram':
+    'prefix': 'JointHistogram'
+    'body': 'JointHistogram [flags] wave1, wave2 [, wave3, wave4]'
+  'JulianToDate':
+    'prefix': 'JulianToDate'
+    'body': 'JulianToDate(julianDay, format )'

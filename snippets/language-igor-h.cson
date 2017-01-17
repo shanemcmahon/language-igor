@@ -1,0 +1,49 @@
+'.source.ipf':
+  'Hanning':
+    'prefix': 'Hanning'
+    'body': 'Hanning waveName [, waveName ]...'
+  'Hash':
+    'prefix': 'Hash'
+    'body': 'Hash(inputStr, method )'
+  'hcsr':
+    'prefix': 'hcsr'
+    'body': 'hcsr(cursorName  [, graphNameStr ])'
+  'hermite':
+    'prefix': 'hermite'
+    'body': 'hermite(n, x )'
+  'hermiteGauss':
+    'prefix': 'hermiteGauss'
+    'body': 'hermiteGauss(n, x )'
+  'HideIgorMenus':
+    'prefix': 'HideIgorMenus'
+    'body': 'HideIgorMenus  [MenuNameStr  [,MenuNameStr ] ...'
+  'HideInfo':
+    'prefix': 'HideInfo'
+    'body': 'HideInfo [/W=winName ]'
+  'HideProcedures':
+    'prefix': 'HideProcedures'
+    'body': 'HideProcedures'
+  'HideTools':
+    'prefix': 'HideTools'
+    'body': 'HideTools  [/W=winName /A]'
+  'HilbertTransform':
+    'prefix': 'HilbertTransform'
+    'body': 'HilbertTransform [flags] srcWave'
+  'Histogram':
+    'prefix': 'Histogram'
+    'body': 'Histogram [ flags ] srcWaveName, destWaveName'
+  'HyperG0F1':
+    'prefix': 'HyperG0F1'
+    'body': 'hyperG0F1(b, z)'
+  'HyperG1F1':
+    'prefix': 'HyperG1F1'
+    'body': 'hyperG1F1(a, b, z)'
+  'HyperG2F1':
+    'prefix': 'HyperG2F1'
+    'body': 'hyperG2F1(a, b, c, z)'
+  'HyperGNoise':
+    'prefix': 'HyperGNoise'
+    'body': 'hyperGNoise(m, n, k )'
+  'HyperGPFQ':
+    'prefix': 'HyperGPFQ'
+    'body': 'hyperGPFQ(waveA, waveB, z)'

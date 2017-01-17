@@ -1,0 +1,211 @@
+'.source.ipf':
+  'MacroList':
+    'prefix': 'MacroList'
+    'body': 'MacroList(matchStr, separatorStr, optionsStr )'
+  'magsqr':
+    'prefix': 'magsqr'
+    'body': 'magsqr(z )'
+  'Make':
+    'prefix': 'Make'
+    'body': 'Make [flags ] waveName  [, waveName ]...'
+  'MakeIndex':
+    'prefix': 'MakeIndex'
+    'body': 'MakeIndex [/A/C/R] sortKeyWaves, indexWaveName'
+  'MandelbrotPoint':
+    'prefix': 'MandelbrotPoint'
+    'body': 'MandelbrotPoint(x, y, maxIterations, algorithm )'
+  'MarcumQ':
+    'prefix': 'MarcumQ'
+    'body': 'MarcumQ(m, a, b)'
+  'MarkPerfTestTime':
+    'prefix': 'MarkPerfTestTime'
+    'body': 'MarkPerfTestTime idval'
+  'MatrixCondition':
+    'prefix': 'MatrixCondition'
+    'body': 'MatrixCondition(wave2D, mode )'
+  'MatrixConvolve':
+    'prefix': 'MatrixConvolve'
+    'body': 'MatrixConvolve [/R=roiWave ] coefMatrix, dataMatrix'
+  'MatrixCorr':
+    'prefix': 'MatrixCorr'
+    'body': 'MatrixCorr [/COV][/DEGC] waveA  [, waveB ]'
+  'MatrixDet':
+    'prefix': 'MatrixDet'
+    'body': 'MatrixDet(dataMatrix )'
+  'MatrixDot':
+    'prefix': 'MatrixDot'
+    'body': 'MatrixDot(waveA, waveB )'
+  'MatrixEigenV':
+    'prefix': 'MatrixEigenV'
+    'body': 'MatrixEigenV [ flags ] matrixA [, matrixB ]'
+  'MatrixFilter':
+    'prefix': 'MatrixFilter'
+    'body': 'MatrixFilter [/b=b /M=rank /N=n /P=p /R=roiWave /T] Method  dataMatrix'
+  'MatrixGaussJ':
+    'prefix': 'MatrixGaussJ'
+    'body': 'MatrixGaussJ matrixA , vectorB '
+  'MatrixGLM':
+    'prefix': 'MatrixGLM'
+    'body': 'MatrixGLM  [/Z] matrixA, matrixB, waveD'
+  'MatrixInverse':
+    'prefix': 'MatrixInverse'
+    'body': 'MatrixInverse [[/D]/P][/G][/O] srcWave'
+  'MatrixLinearSolve':
+    'prefix': 'MatrixLinearSolve'
+    'body': 'MatrixLinearSolve [/D={subDiagonals,superDiagonals }/M=method /O/Z] [/L][/U] matrixA  matrixB'
+  'MatrixLinearSolveTD':
+    'prefix': 'MatrixLinearSolveTD'
+    'body': 'MatrixLinearSolveTD [/Z]  upperW, mainW, lowerW, matrixB'
+  'MatrixLLS':
+    'prefix': 'MatrixLLS'
+    'body': 'MatrixLLS [/M=method  /O/Z] matrixA  matrixB'
+  'MatrixLUBkSub':
+    'prefix': 'MatrixLUBkSub'
+    'body': 'MatrixLUBkSub matrtixL, matrixU, index, vectorB '
+  'MatrixLUD':
+    'prefix': 'MatrixLUD'
+    'body': 'MatrixLUD [/B/CUMF/PMAT/MIND/SUMP] srcWave'
+  'MatrixLUDTD':
+    'prefix': 'MatrixLUDTD'
+    'body': 'MatrixLUDTD [/FM/PMAT/MIND/SUMP] srcMain , srcUpper , srcLower'
+  'MatrixMultiply':
+    'prefix': 'MatrixMultiply'
+    'body': 'MatrixMultiply matrixA [/T], matrixB [/T] [, additional matrices ]'
+  'MatrixOP':
+    'prefix': 'MatrixOP'
+    'body': 'MatrixOp [ /C /FREE /NTHR=n  /O /S ] destwave = expression'
+  'MatrixRank':
+    'prefix': 'MatrixRank'
+    'body': 'MatrixRank(matrixWaveA  [, conditionNumberA ])'
+  'MatrixSchur':
+    'prefix': 'MatrixSchur'
+    'body': 'MatrixSchur [/Z] srcMatrix'
+  'MatrixSolve':
+    'prefix': 'MatrixSolve'
+    'body': 'MatrixSolve method, matrixA, vectorB '
+  'MatrixSVBkSub':
+    'prefix': 'MatrixSVBkSub'
+    'body': 'MatrixSVBkSub matrixU, vectorW, matrixV, vectorB '
+  'MatrixSVD':
+    'prefix': 'MatrixSVD'
+    'body': 'MatrixSVD [/B][/O/U=UMatrixOptions /V=VMatrixOptions /Z] matrixWave'
+  'MatrixTrace':
+    'prefix': 'MatrixTrace'
+    'body': 'MatrixTrace(dataMatrix )'
+  'MatrixTranspose':
+    'prefix': 'MatrixTranspose'
+    'body': 'MatrixTranspose [/H] matrix'
+  'max':
+    'prefix': 'max'
+    'body': 'max(num1, num2  [, num3, ... num200 ] )'
+  'mean':
+    'prefix': 'mean'
+    'body': 'mean(waveName  [, x1, x2  ] )'
+  'MeasureStyledText':
+    'prefix': 'MeasureStyledText'
+    'body': 'MeasureStyledText [/W=winName /A=axisName /F=fontName /SIZE=fontSize /STYL=fontStyle] styledTextStr'
+  'median':
+    'prefix': 'median'
+    'body': 'median(waveName  [, x1, x2  ] )'
+  'min':
+    'prefix': 'min'
+    'body': 'min(num1, num2  [, num3, ... num200 ] )'
+  'MLLoadWave':
+    'prefix': 'MLLoadWave'
+    'body': 'MLLoadWave [/Q/O/B/I/A[=baseName]/N[=name]/P=pathName /R/C/M[=m]/Y=y/T/E/V/S[=s]/G/Z] fileNameStr'
+  'mod':
+    'prefix': 'mod'
+    'body': 'mod(num, div )'
+  'ModDate':
+    'prefix': 'ModDate'
+    'body': 'ModDate(waveName )'
+  'ModifyBrowser':
+    'prefix': 'ModifyBrowser'
+    'body': 'ModifyBrowser [/M] [ keyword = value  [, keyword = value ...] ]'
+  'ModifyCamera':
+    'prefix': 'ModifyCamera'
+    'body': 'ModifyCamera /W=winName  [ /Z ]  keyword=value'
+  'ModifyContour':
+    'prefix': 'ModifyContour'
+    'body': 'ModifyContour [/W=winName ] contourInstanceName , keyword = value  [, keyword = value ...]'
+  'ModifyControl':
+    'prefix': 'ModifyControl'
+    'body': 'ModifyControl [/Z] ctrlName  [ keyword = value  [, keyword = value ...] ]'
+  'ModifyControlList':
+    'prefix': 'ModifyControlList'
+    'body': 'ModifyControlList [/Z] listStr  [, keyword =value ]...'
+  'ModifyFreeAxis':
+    'prefix': 'ModifyFreeAxis'
+    'body': 'ModifyFreeAxis [/W=winName ] axisName, master=mastName  [, hook=funcName ]'
+  'ModifyGizmo':
+    'prefix': 'ModifyGizmo'
+    'body': 'ModifyGizmo [flags] keyword  [=value ]'
+  'ModifyGraph':
+    'prefix': 'ModifyGraph'
+    'body': 'ModifyGraph [/W=winName /Z] [frameInset= i, frameStyle= f , gfMult=f, gFont=fontStr, gfSize=gfs, gfRelSize=pct, gmSize=gms, height=heightSpec, swapXY=s, useComma=uc, UIControl=f, useLongMinus=m, width=widthSpec]'
+  'ModifyImage':
+    'prefix': 'ModifyImage'
+    'body': 'ModifyImage [/W=winName ] imageInstance , keyword =value  [, keyword =value  ...]'
+  'ModifyLayout':
+    'prefix': 'ModifyLayout'
+    'body': 'ModifyLayout [/W=winName /I/M/Z] [bgRGB=(r,g,b ), columns(obj)=c, fidelity(obj)=f, frame(obj)=f, height(obj)=h,  left(obj)=l, mag=m, rows(obj)=r, top(obj)=t, trans(obj)=t,  units=u, width(obj)=w]'
+  'ModifyPanel':
+    'prefix': 'ModifyPanel'
+    'body': 'ModifyPanel [/W=winName ] [cbRGB=(r,g,b ), fixedSize= f,  frameInset= i, frameStyle= f  ]'
+  'ModifyTable':
+    'prefix': 'ModifyTable'
+    'body': 'ModifyTable [/W=winName /Z] [alignment(col )=a, autosize={mode, options, padding, perColumnMaxSeconds, totalMaxSeconds },digits(col )=d, elements(col ) =(row, col, layer, chunk ), entryMode= m, font(col ) ="fontName ", format(col )=f, frameInset= i, frameStyle= f, horizontalIndex=h, rgb=(r, g, b), selection=(firstRow , firstCol , lastRow , lastCol, targetRow, targetCol ), showFracSeconds=s, showParts=parts, sigDigits(col)=d, size(col )=s, style(col )=n, title(col )= "titleStr ", topLeftCell=(row , column ), trailingZeros(col )=t  , width=w ]'
+  'ModifyWaterfall':
+    'prefix': 'ModifyWaterfall'
+    'body': 'ModifyWaterfall [/W=winName ] keyword = value  [, keyword = value  ...]'
+  'ModuleName':
+    'prefix': 'ModuleName'
+    'body': 'ModuleName'
+  'MoveDataFolder':
+    'prefix': 'MoveDataFolder'
+    'body': 'MoveDataFolder sourceDataFolderSpec, destDataFolderPath'
+  'MoveFile':
+    'prefix': 'MoveFile'
+    'body': 'MoveFile [/D/I[=i ]/M=messageStr /O/P=pathName /S=saveMessageStr /Z[=z ] ]  [srcFileStr ]  [ as destFileOrFolderStr ]'
+  'MoveFolder':
+    'prefix': 'MoveFolder'
+    'body': 'MoveFolder [/D /I[=i]/M=messageStr /O/P=pathName /S=saveMessageStr /Z[=z ] ]  [srcFolderStr ]  [ as destFolderStr ]'
+  'MoveString':
+    'prefix': 'MoveString'
+    'body': 'MoveString sourceString, destDataFolderPath [newname ]'
+  'MoveSubwindow':
+    'prefix': 'MoveSubwindow'
+    'body': 'MoveSubwindow [/W=winName ] [fguide=(gLeft, gTop, gRight, gBottom ), fnum=(left, top, right, bottom ), pguide=(gLeft, gTop, gRight, gBottom )]'
+  'MoveVariable':
+    'prefix': 'MoveVariable'
+    'body': 'MoveVariable sourceVar, destDataFolderPath [newname ]'
+  'MoveWave':
+    'prefix': 'MoveWave'
+    'body': 'MoveWave sourceWave, destDataFolderPath [newname ]'
+  'MoveWindow':
+    'prefix': 'MoveWindow'
+    'body': 'MoveWindow [/C/F/I/M/P=procedureTitleAsName /W=winName] left, top, right, bottom'
+  'MPFXEMGPeak':
+    'prefix': 'MPFXEMGPeak'
+    'body': 'MPFXEMGPeak(cw, yw, xw)'
+  'MPFXExpConvExpPeak':
+    'prefix': 'MPFXExpConvExpPeak'
+    'body': 'MPFXExpConvExpPeak(cw, yw, xw)'
+  'MPFXGaussPeak':
+    'prefix': 'MPFXGaussPeak'
+    'body': 'MPFXGaussPeak(cw, yw, xw)'
+  'MPFXLorenzianPeak':
+    'prefix': 'MPFXLorenzianPeak'
+    'body': 'MPFXLorenzianPeak(cw, yw, xw)'
+  'MPFXVoigtPeak':
+    'prefix': 'MPFXVoigtPeak'
+    'body': 'MPFXVoigtPeak(cw, yw, xw)'
+  'MultiTaperPSD':
+    'prefix': 'MultiTaperPSD'
+    'body': 'MultiTaperPSD [flags] srcWave'
+  'MultiThread':
+    'prefix': 'MultiThread'
+    'body': 'MultiThread'
+  'MultiThreadingControl':
+    'prefix': 'MultiThreadingControl'
+    'body': 'MultiThreadingControl keyword [=value]'

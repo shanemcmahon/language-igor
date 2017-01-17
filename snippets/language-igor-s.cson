@@ -1,0 +1,316 @@
+'.source.ipf':
+  'Save':
+    'prefix': 'Save'
+    'body': 'Save [flags] waveList [as fileNameStr ]'
+  'SaveData':
+    'prefix': 'SaveData'
+    'body': 'SaveData [/D[=d]/O/I/Q/R/P=pathName  /J=objectNamesStr /L=saveFlags /M=modDateTime  /T[=topLevelName ] ] fileOrFolderNameStr'
+  'SaveExperiment':
+    'prefix': 'SaveExperiment'
+    'body': 'SaveExperiment [ flags ] [as fileName ]'
+  'SaveGraphCopy':
+    'prefix': 'SaveGraphCopy'
+    'body': 'SaveGraphCopy [/I /O /P=pathName  /W=winName /Z ] [as fileNameStr ]'
+  'SaveNotebook':
+    'prefix': 'SaveNotebook'
+    'body': 'SaveNotebook [flags ] notebookName  [as fileNameStr ]'
+  'SavePackagePreferences':
+    'prefix': 'SavePackagePreferences'
+    'body': 'SavePackagePreferences [ /FLSH=flush  /KILL /P=pathName ]   packageName , prefsFileName, recordID , prefsStruct'
+  'SavePICT':
+    'prefix': 'SavePICT'
+    'body': 'SavePICT [flags] [as fileNameStr ]'
+  'SaveTableCopy':
+    'prefix': 'SaveTableCopy'
+    'body': 'SaveTableCopy [/A=a /I/M=termStr /N=n /O/P=pathName /S=s /T=saveType /F=f  /W=winName  /Z ] [as fileNameStr ]'
+  'sawtooth':
+    'prefix': 'sawtooth'
+    'body': 'sawtooth(num )'
+  'scaleToIndex':
+    'prefix': 'scaleToIndex'
+    'body': 'ScaleToIndex(waveName, coordValue, dim )'
+  'ScreenResolution':
+    'prefix': 'ScreenResolution'
+    'body': 'ScreenResolution'
+  'sec':
+    'prefix': 'sec'
+    'body': 'sec(angle )'
+  'sech':
+    'prefix': 'sech'
+    'body': 'sech(x)'
+  'Secs2Date':
+    'prefix': 'Secs2Date'
+    'body': 'Secs2Date(seconds, format  [, sep ])'
+  'Secs2Time':
+    'prefix': 'Secs2Time'
+    'body': 'Secs2Time(seconds, format [, fracDigits ])'
+  'SelectNumber':
+    'prefix': 'SelectNumber'
+    'body': 'SelectNumber(whichOne , val1, val2  [, val3  ])'
+  'SelectString':
+    'prefix': 'SelectString'
+    'body': 'SelectString(whichOne , str1, str2  [, str3 ])'
+  'SetActiveSubwindow':
+    'prefix': 'SetActiveSubwindow'
+    'body': 'SetActiveSubwindow subWinSpec'
+  'SetAxis':
+    'prefix': 'SetAxis'
+    'body': 'SetAxis [/W=winName /A[=a ]/E=z /N=n /R/Z] axisName [, num1, num2 ]'
+  'SetBackground':
+    'prefix': 'SetBackground'
+    'body': 'SetBackground numericExpression'
+  'SetDashPattern':
+    'prefix': 'SetDashPattern'
+    'body': 'SetDashPattern dashNumber, {d1,s1 [,d2,s2 ]...}'
+  'SetDataFolder':
+    'prefix': 'SetDataFolder'
+    'body': 'SetDataFolder dataFolderSpec'
+  'SetDimLabel':
+    'prefix': 'SetDimLabel'
+    'body': 'SetDimLabel dimNumber,dimIndex,label,wavelist'
+  'SetDrawEnv':
+    'prefix': 'SetDrawEnv'
+    'body': 'SetDrawEnv [/W=winName ]  keyword  [=value ][, keyword  [=value ]]...'
+  'SetDrawLayer':
+    'prefix': 'SetDrawLayer'
+    'body': 'SetDrawLayer [/W=winName /K] layerName'
+  'SetEnvironmentVariable':
+    'prefix': 'SetEnvironmentVariable'
+    'body': 'SetEnvironmentVariable(varName, varValue)'
+  'SetFileFolderInfo':
+    'prefix': 'SetFileFolderInfo'
+    'body': 'SetFileFolderInfo [ /CDAT=cdateSecs /CRE8=creatorStr /D /FTYP=typeStr /INV=inv  /MDAT=mDateSecs /P=pathName /R=r /RO=ro /STA=st /Z=z] ] [fileOrFolderNameStr]'
+  'SetFormula':
+    'prefix': 'SetFormula'
+    'body': 'SetFormula waveOrVariableName, expressionStr'
+  'SetIgorHook':
+    'prefix': 'SetIgorHook'
+    'body': 'SetIgorHook  [/K/L] [hookType  [=procName ] ]'
+  'SetIgorMenuMode':
+    'prefix': 'SetIgorMenuMode'
+    'body': 'SetIgorMenuMode MenuNameStr, MenuItemStr, Action'
+  'SetIgorOption':
+    'prefix': 'SetIgorOption'
+    'body': 'SetIgorOption [mainKeyword,] keyword= value '
+  'SetMarquee':
+    'prefix': 'SetMarquee'
+    'body': 'SetMarquee [/W=winName ] left, top, right, bottom'
+  'SetProcessSleep':
+    'prefix': 'SetProcessSleep'
+    'body': 'SetProcessSleep sleepTicks'
+  'SetRandomSeed':
+    'prefix': 'SetRandomSeed'
+    'body': 'SetRandomSeed seed'
+  'SetScale':
+    'prefix': 'SetScale'
+    'body': 'SetScale [/I/P] dim, num1, num2  [, unitsStr ] [, waveName ]...'
+  'SetVariable':
+    'prefix': 'SetVariable'
+    'body': 'SetVariable [/Z] ctrlName [ keyword = value  [, keyword = value ...] ]'
+  'SetVariableControl':
+    'prefix': 'SetVariableControl'
+    'body': 'SetVariableControl'
+  'SetWaveLock':
+    'prefix': 'SetWaveLock'
+    'body': 'SetWaveLock lockVal, waveList'
+  'SetWaveTextEncoding':
+    'prefix': 'SetWaveTextEncoding'
+    'body': 'SetWaveTextEncoding [flags ] newTextEncoding , elements, [wave , wave, ...]'
+  'SetWindow':
+    'prefix': 'SetWindow'
+    'body': 'SetWindow winName  [, activeChildFrame=f, hide =h, hook=procName, hook(hName )=procName, hookcursor=number, hookEvents= flags, markerHook= {hookFuncName , start , end }, needUpdate= n, note=noteStr, note+=noteStr, userdata[(UDName )]=UDStr , userdata [(UDName )]+=UDStr ]'
+  'ShowIgorMenus':
+    'prefix': 'ShowIgorMenus'
+    'body': 'ShowIgorMenus  [MenuNameStr  [,MenuNameStr ] ...'
+  'ShowInfo':
+    'prefix': 'ShowInfo'
+    'body': 'ShowInfo [ /CP=num /W=winName ]'
+  'ShowTools':
+    'prefix': 'ShowTools'
+    'body': 'ShowTools  [/W=winName /A] [ toolName ]'
+  'sign':
+    'prefix': 'sign'
+    'body': 'sign(num )'
+  'Silent':
+    'prefix': 'Silent'
+    'body': 'Silent num'
+  'sin':
+    'prefix': 'sin'
+    'body': 'sin(angle )'
+  'sinc':
+    'prefix': 'sinc'
+    'body': 'sinc(num )'
+  'sinh':
+    'prefix': 'sinh'
+    'body': 'sinh(num )'
+  'sinIntegral':
+    'prefix': 'sinIntegral'
+    'body': 'SinIntegral(z )'
+  'Sleep':
+    'prefix': 'Sleep'
+    'body': 'Sleep [/A/W/B/C=cursor /Q/S/T] timeSpec'
+  'Slider':
+    'prefix': 'Slider'
+    'body': 'Slider [/Z] ctrlName  [ keyword = value  [, keyword = value ...] ]'
+  'Smooth':
+    'prefix': 'Smooth'
+    'body': 'Smooth [ /B[=b ] /DIM = d  /E=endEffect  /EVEN[=evenAllowed ] /F[=f ] /M=threshold  /MPCT=percentile  /R=replacement  /S=sgOrder ] num, waveName [,waveName ]...'
+  'SmoothCustom':
+    'prefix': 'SmoothCustom'
+    'body': 'SmoothCustom [/E=endEffect] coefsWaveName, waveName [, waveName ]...'
+  'Sort':
+    'prefix': 'Sort'
+    'body': 'Sort [ /A /DIML /C /R ] sortKeyWaves, sortedWaveName [, sortedWaveName ]...'
+  'SortColumns':
+    'prefix': 'SortColumns'
+    'body': 'SortColumns [flags] keyWaves={waveList }, sortWaves={waveList }'
+  'SortList':
+    'prefix': 'SortList'
+    'body': 'SortList(listStr  [, listSepStr  [, options ])'
+  'SoundInRecord':
+    'prefix': 'SoundInRecord'
+    'body': 'SoundInRecord [/Z] wave'
+  'SoundInSet':
+    'prefix': 'SoundInSet'
+    'body': 'SoundInSet [/Z] [gain=g, agc=a ]'
+  'SoundInStartChart':
+    'prefix': 'SoundInStartChart'
+    'body': 'SoundInStartChart [/Z] buffersize , destFIFOname'
+  'SoundInStatus':
+    'prefix': 'SoundInStatus'
+    'body': 'SoundInStatus'
+  'SoundInStopChart':
+    'prefix': 'SoundInStopChart'
+    'body': 'SoundInStopChart [/Z]'
+  'SoundLoadWave':
+    'prefix': 'SoundLoadWave'
+    'body': 'SoundLoadWave [ /I [= filterStr] /O /P=pathName  /Q /S=(startT,endT ) ] waveName  [ ,fileNameStr  ] '
+  'SoundSaveWave':
+    'prefix': 'SoundSaveWave'
+    'body': 'SoundSaveWave [/I /O /P=pathName /Q ] typeStr, waveName [ , fileNameStr ]'
+  'SpecialCharacterInfo':
+    'prefix': 'SpecialCharacterInfo'
+    'body': 'SpecialCharacterInfo(notebookNameStr, specialCharacterNameStr, whichStr )'
+  'SpecialCharacterList':
+    'prefix': 'SpecialCharacterList'
+    'body': 'SpecialCharacterList(notebookNameStr, separatorStr, mask, flags )'
+  'SpecialDirPath':
+    'prefix': 'SpecialDirPath'
+    'body': 'SpecialDirPath(dirIDStr, domain, flags, createDir )'
+  'SphericalBessJ':
+    'prefix': 'SphericalBessJ'
+    'body': 'sphericalBessJ(n, x [, accuracy ])'
+  'SphericalBessJD':
+    'prefix': 'SphericalBessJD'
+    'body': 'sphericalBessJD(n, x [, accuracy ])'
+  'SphericalBessY':
+    'prefix': 'SphericalBessY'
+    'body': 'sphericalBessY(n, x [, accuracy ])'
+  'SphericalBessYD':
+    'prefix': 'SphericalBessYD'
+    'body': 'sphericalBessYD(n, x [, accuracy ])'
+  'SphericalHarmonics':
+    'prefix': 'SphericalHarmonics'
+    'body': 'sphericalHarmonics(L, M, θ, φ)'
+  'SphericalInterpolate':
+    'prefix': 'SphericalInterpolate'
+    'body': 'SphericalInterpolate triangulationDataWave, dataPointsWave, newLocationsWave'
+  'SphericalTriangulate':
+    'prefix': 'SphericalTriangulate'
+    'body': 'SphericalTriangulate [/Z] tripletWaveName'
+  'SplitString':
+    'prefix': 'SplitString'
+    'body': 'SplitString /E=regExprStr str , substring1 [, substring2, ... substringN]'
+  'SplitWave':
+    'prefix': 'SplitWave'
+    'body': 'SplitWave [flags]  srcWave'
+  'sprintf':
+    'prefix': 'sprintf'
+    'body': 'sprintf stringName, formatStr [,parameter]...'
+  'sqrt':
+    'prefix': 'sqrt'
+    'body': 'sqrt(num )'
+  'sscanf':
+    'prefix': 'sscanf'
+    'body': 'sscanf scanStr, formatStr, var [, var ]'
+  'Stack':
+    'prefix': 'Stack'
+    'body': 'Stack [/A=(rows,cols)/G=grout /I/M/O=objTypes /R/S /W=(left,top,right,bottom )] [objectName ] [, objectName ]...'
+  'StackWindows':
+    'prefix': 'StackWindows'
+    'body': 'StackWindows [/A=(rows,cols)/C/G=grout /I/M/O=objTypes /P/R /W=(left,top,right,bottom )] [windowName ] [, windowName ]...'
+  'StartMSTimer':
+    'prefix': 'StartMSTimer'
+    'body': 'StartMSTimer'
+  'Static':
+    'prefix': 'Static'
+    'body': 'Static'
+  'StopMSTimer':
+    'prefix': 'StopMSTimer'
+    'body': 'StopMSTimer(timerRefNum )'
+  'str2num':
+    'prefix': 'str2num'
+    'body': 'str2num(str )'
+  'StrConstant':
+    'prefix': 'StrConstant'
+    'body': 'Strconstant'
+  'String':
+    'prefix': 'String'
+    'body': 'String [/G] strName [=strExpr ] [, strName [=strExpr ]... ]'
+  'StringByKey':
+    'prefix': 'StringByKey'
+    'body': 'StringByKey(keyStr, kwListStr  [, keySepStr  [, listSepStr [, matchCase ]]])'
+  'stringCRC':
+    'prefix': 'stringCRC'
+    'body': 'StringCRC(inCRC,str)'
+  'StringFromList':
+    'prefix': 'StringFromList'
+    'body': 'StringFromList(index, listStr  [, listSepStr  [, offset ]])'
+  'StringList':
+    'prefix': 'StringList'
+    'body': 'StringList(matchStr, separatorStr )'
+  'stringmatch':
+    'prefix': 'stringmatch'
+    'body': 'StringMatch(string, matchStr )'
+  'strlen':
+    'prefix': 'strlen'
+    'body': 'strlen(str )'
+  'strsearch':
+    'prefix': 'strsearch'
+    'body': 'strsearch(str, findThisStr, start  [, options])'
+  'STRUCT':
+    'prefix': 'STRUCT'
+    'body': 'STRUCT'
+  'StructGet':
+    'prefix': 'StructGet'
+    'body': 'StructGet [/B=b ] structVar, waveStruct [[colNum ]]'
+  'StructPut':
+    'prefix': 'StructPut'
+    'body': 'StructPut [/B=b ] structVar, waveStruct [[colNum ]]'
+  'Structure':
+    'prefix': 'Structure'
+    'body': 'Structure'
+  'StrVarOrDefault':
+    'prefix': 'StrVarOrDefault'
+    'body': 'StrVarOrDefault(pathStr, defStrVal )'
+  'Submenu':
+    'prefix': 'Submenu'
+    'body': 'Submenu'
+  'sum':
+    'prefix': 'sum'
+    'body': 'sum(waveName  [, x1, x2  ] )'
+  'SumDimension':
+    'prefix': 'SumDimension'
+    'body': 'SumDimension [/D=dimension  /DEST=destWave  /Y=numType ] srcWave'
+  'SumSeries':
+    'prefix': 'SumSeries'
+    'body': 'SumSeries [flags] keyword=value'
+  'SVAR':
+    'prefix': 'SVAR'
+    'body': 'SVAR'
+  'SVAR_Exists':
+    'prefix': 'SVAR_Exists'
+    'body': 'SVAR_Exists(name )'
+  'Snippet Name':
+    'prefix': 'Snippet Trigger'
+    'body': 'Hello World!'

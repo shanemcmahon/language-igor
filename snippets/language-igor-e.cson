@@ -1,0 +1,73 @@
+'.source.ipf':
+  'EdgeStats':
+    'prefix': 'EdgeStats'
+    'body': 'EdgeStats [/A=avgPts /B=box /F=frac /L=(startLevel, endLevel ) /P /Q /R=(startX, endX ) /T=dx ] waveName'
+  'Edit':
+    'prefix': 'Edit'
+    'body': 'Edit [/HIDE=h /HOST=hcSpec /I/K=k /M/N=name/W=(left, top, right, bottom)] [columnSpec [,columnSpec]...] [as titleStr]'
+  'ei':
+    'prefix': 'ei'
+    'body': 'ei(x )'
+  'End':
+    'prefix': 'End'
+    'body': 'End'
+  'EndMacro':
+    'prefix': 'EndMacro'
+    'body': 'EndMacro'
+  'EndStructure':
+    'prefix': 'EndStructure'
+    'body': 'EndStructure'
+  'endtry':
+    'prefix': 'endtry'
+    'body': 'endtry'
+  'enoise':
+    'prefix': 'enoise'
+    'body': 'enoise(num  [, RNG ])'
+  'equalWaves':
+    'prefix': 'equalWaves'
+    'body': 'EqualWaves(waveA, waveB , selector  [, tolerance ])'
+  'erf':
+    'prefix': 'erf'
+    'body': 'erf(num  [, accuracy ])'
+  'erfc':
+    'prefix': 'erfc'
+    'body': 'erfc(num  [, accuracy ])'
+  'erfcw':
+    'prefix': 'erfcw'
+    'body': 'erfcw(z )'
+  'ErrorBars':
+    'prefix': 'ErrorBars'
+    'body': 'ErrorBars [/W=winName /L=lineThick /T=thick /X=xWidth /Y=yWidth ] traceName, mode [errorSpecification ]'
+  'EstimatePeakSizes':
+    'prefix': 'EstimatePeakSizes'
+    'body': 'EstimatePeakSizes [/B=baseWaveName ]  [/X=xWaveName ] [/E=bothEdgesWaveName ] edgePct, maxWidth, box, npks, peakCentersWaveName, peakWaveName, peakAmplitudesWave, peakWidthsWaveName'
+  'Execute':
+    'prefix': 'Execute'
+    'body': 'Execute [/Q/Z] cmdStr'
+  'ExecuteScriptText':
+    'prefix': 'ExecuteScriptText'
+    'body': 'ExecuteScriptText [/B /W=waitTime /UNQ /Z] textStr'
+  'exists':
+    'prefix': 'exists'
+    'body': 'exists(objNameStr )'
+  'exp':
+    'prefix': 'exp'
+    'body': 'exp(num )'
+  'ExperimentModified':
+    'prefix': 'ExperimentModified'
+    'body': 'ExperimentModified  [newModifiedState ]'
+  'expInt':
+    'prefix': 'expInt'
+    'body': 'expInt(n, x )'
+  'expIntegralE1':
+    'prefix': 'expIntegralE1'
+    'body': 'ExpIntegralE1(z )'
+  'expNoise':
+    'prefix': 'expNoise'
+    'body': 'expNoise(b )'
+  'ExportGizmo':
+    'prefix': 'ExportGizmo'
+    'body': 'ExportGizmo [flags] keyword [=value]'
+  'Extract':
+    'prefix': 'Extract'
+    'body': 'Extract [ /FREE /INDX /O ][ typeFlags ] srcWave, destWave, LogicalExpression'
